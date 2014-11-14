@@ -1,0 +1,5 @@
+﻿LOTI.05.040;Analoog- ja digitaalelektroonika;6
+LOTI.05.041;Digitaalne loogika;6
+LOTI.05.026;Digitaalne signaalitöötlus;3
+LOFY.03.007;Elektriahelad;6
+LOTI.05.042;Elektroonikaseadmete disain ja tootmine;3

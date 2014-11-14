@@ -1,0 +1,31 @@
+﻿MTMM.00.271;Algebra ja geomeetria;3
+MTAT.05.109;Diskreetse matemaatika elemendid;6
+MTMM.00.188;Kõrgem matemaatika;6
+MTAT.03.100;Programmeerimine;6
+LOFY.03.056;Tõenäosusteooria ja statistika;3
+LOFY.03.079;Arvuti arhitektuur ja riistvara;6
+LOTI.05.020;Arvutiriistvara II;3
+LOFY.03.005;Elektrimõõtmised;3
+LOFY.01.121;Füüsika ja tehnika;6
+LOFY.01.021;Insenerigraafika;3
+LOFY.01.025;Visuaalprogrammeerimine;3
+LOTI.05.040;Analoog- ja digitaalelektroonika;6
+LOTI.05.041;Digitaalne loogika;6
+LOTI.05.026;Digitaalne signaalitöötlus;3
+LOFY.03.007;Elektriahelad;6
+LOTI.05.042;Elektroonikaseadmete disain ja tootmine;3
+MTAT.03.133;Algoritmid ja andmestruktuurid;6
+MTAT.03.105;Andmebaasid;3
+MTAT.03.130;Objektorienteeritud programmeerimine;6
+MTAT.03.005;Operatsioonisüsteemid;6
+MTAT.08.033;Võrgutehnoloogia;3
+LOFY.03.012;Arvutikomponendid;6
+LOTI.05.021;Arvutiriistvara praktikum;3
+LOFY.03.013;Manussüsteemid;3
+LOTI.05.028;Mikroprotsessorid;6
+LOTI.05.022;Riistvaraprojekt;6
+MTAT.03.134;Andmeturve;6
+LOTI.05.010;Robootika;6
+LOTI.05.023;Robootika praktikum;6
+MTAT.08.021;Süsteemihaldus;6
+MTAT.08.004;Võrgutehnoloogia II;6

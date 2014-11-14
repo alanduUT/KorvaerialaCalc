@@ -1,0 +1,7 @@
+﻿LOFY.03.001;Arvutiriistvara I;3
+LOTI.05.020;Arvutiriistvara II;3
+LOTI.05.021;Arvutiriistvara praktikum;3
+LOFY.03.005;Elektrimõõtmised;3
+LOFY.01.121;Füüsika ja tehnika;6
+LOFY.01.021;Insenerigraafika;3
+LOFY.01.025;Visuaalprogrammeerimine;3
