@@ -1,0 +1,9 @@
+﻿LOOM.01.010;Biogeograafia;3
+LOMR.08.005;Biokeemia I;3
+LOOM.01.106;Biosüstemaatika ja elurikkuse informaatika;1
+LOOM.04.002;Etoloogia;3
+LOMR.02.004;Evolutsioonimehhanismid;2
+LOMR.03.010;Geneetika I;3
+LOMR.06.004;Rakubioloogia I;3
+LOOM.01.105;Ökoloogia;3
+LOOM.01.073;Ökoloogia rakendusi;3

@@ -1,0 +1,47 @@
+﻿LOMR.07.011;Bioloogiline füüsika;3
+LOMR.07.012;Füüsika alused;3
+MTMM.00.145;Kõrgem matemaatika;6
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOKT.01.058;Üldine keemia;3
+LOKT.01.046;Üldkeemia seminar;3
+LOKT.01.060;Üldkeemia seminar;3
+LOMR.08.005;Biokeemia I;3
+LOOM.01.106;Biosüstemaatika ja elurikkuse informaatika;1
+LOMR.02.004;Evolutsioonimehhanismid;2
+LOMR.03.010;Geneetika I;3
+LOOM.03.115;Maateaduste alused I;3
+LOMR.05.008;Molekulaarbioloogia;6
+LOMR.06.004;Rakubioloogia I;3
+LOOM.01.105;Ökoloogia;3
+LOMR.09.029;Arengubioloogia;6
+LOOM.04.078;Selgroogsete zooloogia;4
+LOOM.04.077;Selgrootute zooloogia;4
+LOOM.01.121;Sissejuhatus eukarüootide mitmekesisusse - protistid ja seened;2
+LOOM.01.123;Taimeanatoomia ja -morfoloogia;4
+LOOM.01.124;Taimede süstemaatika ja fülogenees;4
+LOMR.08.006;Biokeemia II;3
+LOMR.02.003;Evolutsiooniline bioloogia;3
+ARFS.01.053;Füsioloogia praktikum;2
+LOMR.03.011;Geneetika II;3
+LOOM.04.003;Looduskaitsebioloogia;3
+LOOM.02.148;Maateaduste alused II;3
+LOMR.06.005;Rakubioloogia II;3
+LOOM.00.027;Sissejuhatus erialasse ökoloogidele ja bioloogidele;1
+LOMR.00.105;Sissejuhatus geenitehnoloogia/molekulaar- ja rakubioloogia erialasse;1
+LOOM.01.073;Ökoloogia rakendusi;3
+LOOM.04.002;Etoloogia;3
+LOMR.09.032;Inimese anatoomia ja füsioloogia (koos praktikumiga);4
+LOMR.03.016;Mikrobioloogia I;3
+LOMR.03.020;Mikrobioloogia II;3
+LOMR.03.021;Mikrobioloogia ja viroloogia praktikum;6
+LOMR.01.001;Molekulaarne biotehnoloogia;5
+LOMR.08.002;Biokeemia praktikum;5
+LOOM.01.017;Floristika välipraktika;3
+LOMR.03.023;Geneetika praktikum;4
+LOOM.01.034;Mükoloogia;3
+LOOM.04.012;Zooloogia välipraktikum;3
+LOMR.07.001;Taimefüsioloogia;3
+LOMR.07.006;Taimefüsioloogia praktikum;3
+LOOM.00.022;Eesti keele suulise ja kirjaliku väljenduse õpetus;3
+LOMR.00.100;Eesti keele suulise ja kirjaliku väljenduse õpetus;3
