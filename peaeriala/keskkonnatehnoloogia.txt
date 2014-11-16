@@ -1,4 +1,4 @@
-LOFY.01.002;Fuusikaline maailmapilt;6
+﻿LOFY.01.002;Fuusikaline maailmapilt;6
 LOKT.07.010;Keemia alused;6
 MTMM.00.145;Korgem matemaatika;6
 LOKT.09.040;Orgaaniline keemia I;3
@@ -8,9 +8,9 @@ LOKT.07.010;Keemia alused;6
 MTMM.00.145;Korgem matemaatika;6
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3
-LOMR.00.100;Eesti keele suulise ja kirjaliku valjenduse opetus;3
-LOKT.00.018;Eesti keele suulise ja kirjaliku valjenduse opetus;3
-LOOM.00.022;Eesti keele suulise ja kirjaliku valjenduse opetus;3
+LOMR.00.100;Eesti keele suulise ja kirjaliku valjenduse opetus(LOMR.00.100);3
+LOKT.00.018;Eesti keele suulise ja kirjaliku valjenduse opetus(LOKT.00.018);3
+LOOM.00.022;Eesti keele suulise ja kirjaliku valjenduse opetus(LOOM.00.022);3
 LOFY.00.003;Eesti keele valjendusopetus;3
 FLKE.01.204;Inglise keel keskkonnatehnoloogia uliopilastele, tase B2;3
 FLKE.01.205;Inglise keel keskkonnatehnoloogia uliopilastele, tase C1;3

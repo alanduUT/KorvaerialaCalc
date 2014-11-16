@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 from copy import deepcopy
+from os import listdir
 ## FRAME
 frame = Tk()
 frame.title("Kõrvaerila Kalkulaator v0.1")
@@ -37,6 +38,7 @@ def getyear(arg):
     y_ear = year.get()
 ## STEP 2
 def step2():
+    ## CONDITION TO PASS
     Z = 1
     key_1 = 0
     while Z <= 5:
@@ -56,7 +58,15 @@ def step2():
         frame.mainloop()
     else:
         frame.destroy()
-        ##
+        ## DEFINE EVERY MODULE FROM KORVAERIALA
+        global k_eriala_choose
+        k_eriala_choose = []
+        path = str(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\") + str(k_eriala.lower()) + "\suunamoodul"
+        k_file = listdir(path)
+        for k in k_file:
+            k_eriala_choose.append(str(k))
+        print(k_eriala_choose)
+        ## DEFINE EVERY SUBJECTED CONNECTED WITH PEAERIALA
         global p_eriala_choose
         p_eriala_choose = []
         p_file = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\peaeriala\\" + str(p_eriala.lower()) + ".txt", encoding = "UTF-8")
@@ -65,38 +75,53 @@ def step2():
         for p in p_files:
             splited = p.split(";")
             p_eriala_choose.append(splited[1])
-        sum_length = str(len(p_eriala_choose)*20 + 10)
-        ##
+        sum_length = str(45*20 + 10)
+        ## CONSTRUCT FRAME2 WITH GIVEN VARIABLES
         frame2 = Tk()
         frame2.title("Kõrvaerila Kalkulaator v0.1")
         frame2.config(bg = "#F8F8F8")
-        frame2.geometry("300x" + sum_length)
-        ##
+        frame2.geometry("1100x" + sum_length)
+        ## CHECKBOX NAME CONSTRUCTOR
         check_p = []
         n = 0
         while n < len(p_eriala_choose):
             check_p.append("check_p_"+ str(n))
             n+=1
-        #print(check_p)
+        ## CHECKBOX CONTROLLER
         global var
         var = []
         for j in range(len(p_eriala_choose)):
             var.append(j)
         for n in range(len(p_eriala_choose)):
             var[n] = IntVar()
-            check_p[n] = Checkbutton(frame2,text = str(p_eriala_choose[n]),variable = var[n],offvalue = 0, onvalue = 1, command = users_subjects)
-            check_p[n].config(bg = "#F8F8F8")
-            check_p[n].place(x = 5, y = (5+n*20))
-        ##
+            if n >= 45:
+                check_p[n] = Checkbutton(frame2,text = str(p_eriala_choose[n]),variable = var[n],offvalue = 0, onvalue = 1, command = users_subjects)
+                check_p[n].config(bg = "#F8F8F8")
+                check_p[n].place(x = 400, y = (5+(n-45)*20))
+            else:  
+                check_p[n] = Checkbutton(frame2,text = str(p_eriala_choose[n]),variable = var[n],offvalue = 0, onvalue = 1, command = users_subjects)
+                check_p[n].config(bg = "#F8F8F8")
+                check_p[n].place(x = 5, y = (5+n*20))
+        ##  RADIOBUTTON FOR KORVAERIALA
+        k_choose_label = Label(frame2, text = ("Valige " + str(k_eriala).upper() +" suunamoodul"), font = k_choose_font, bg = "#F8F8F8")
+        k_choose_label.place( x = 700, y = (int(sum_length)/2-40))
+        string = StringVar()
+        for k in range(len(k_eriala_choose)):
+            k_eriala_choose[k] = Radiobutton(frame2, text = str(k_eriala_choose[k][:len(k_eriala_choose[k])-4]).capitalize()+" suunamoodul", variable = string, value = k_eriala_choose[k])
+            k_eriala_choose[k].config(bg = "#F8F8F8")
+            k_eriala_choose[k].place(x = 700, y = (int(sum_length)/2+k*20))
+        
 ## FONTS
 p_k_font = font.Font(size = 15, weight = "bold")
 b_i_font = font.Font(weight = "bold", size = 10)
+global k_choose_font
+k_choose_font = font.Font(weight = "bold", size = 20)
 ## Peaeriala LABEL + COMBOBOX
 p_label = Label(frame, text = "Peaeriala", font = p_k_font, bg = "#F8F8F8")
 p_label.place(x = 5, y = 10)
 
 peaeriala = ttk.Combobox(frame)
-peaeriala["values"] = ["Arvutitehnika","Bioloogia","Bioloogia","Bioloogia","Bioloogia","Bioloogia","Bioloogia"]
+peaeriala["values"] = ["Arvutitehnika","Bioloogia","Haridusteadus","Keemia","Keskkonnatehnoloogia","Materjaliteadus","Ökoloogia"]
 peaeriala.pack()
 peaeriala.place(x = 5, y =40 )
 
@@ -106,7 +131,7 @@ k_label = Label(frame, text = "Kõrvaeriala", font = p_k_font, bg = "#F8F8F8")
 k_label.place(x = 150, y = 10)
 
 korvaeriala = ttk.Combobox(frame)
-korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Bioloogia","Bioloogia","Bioloogia","Bioloogia","Bioloogia"]
+korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Keemia","Materjaliteadus","Ökoloogia","Bioloogia","Bioloogia"]
 korvaeriala.pack()
 korvaeriala.place(x = 150, y = 40)
 
