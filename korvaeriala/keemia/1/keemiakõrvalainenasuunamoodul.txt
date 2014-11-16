@@ -1,0 +1,6 @@
+LOKT.01.007;Anorgaaniline keemia;6
+LOKT.07.010;Keemia alused;6
+LOKT.01.003;Keemia aluste praktikum I;3
+LOKT.09.031;Keemia aluste praktikum II;3
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3

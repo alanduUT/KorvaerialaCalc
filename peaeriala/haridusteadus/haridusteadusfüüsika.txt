@@ -1,0 +1,13 @@
+LOFY.01.090;Elekter ja magnetism;6
+LOFY.01.092;Fuusika seminarikursus;6 
+LOFY.01.094;Fuusikaliste mootmiste praktikum;3
+LOFY.01.004;Mootmised ja mootemaaramatused;3
+LOFY.01.089;Optika;6
+LOFY.04.023;Astronoomia;3
+LOFY.01.110;Eksperimentaalne koolifuusika;3
+LOFY.01.101;Fuusika meie umber;3
+LOFY.01.072;Informatsiooni-kommunikatsioonitehnoloogia fuusikahariduses;6
+LOFY.01.065;Kooliulesannete lahendamise metoodika;2
+LOFY.01.070;Loodusteadusliku motlemisviisi kujundamine koolifuusikas;3
+LOFY.01.095;Mikromaailma fuusika;3
+LOFY.01.069;Valitood koolifuusikas;1

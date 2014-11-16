@@ -1,0 +1,35 @@
+LOFY.01.002;Fuusikaline maailmapilt;6
+LOFY.01.035;Fuusikaliste mootmiste praktikum keemikutele;3 EAP
+MTMM.00.003;Korgem matemaatika I;6
+MTMM.00.004;Korgem matemaatika II;6
+LOFY.01.004;Mootmised ja mootemaaramatused;3
+LOKT.01.007;Anorgaaniline keemia;6
+LOKT.01.010;Anorgaanilise keemia praktikum I;3
+LOKT.07.010;Keemia alused;6
+LOKT.01.003;Keemia aluste praktikum I;3
+LOKT.09.031;Keemia aluste praktikum II;3
+LOKT.07.011;Keemia aluste seminar;3
+LOKT.06.010;Analuutiline keemia I;6
+LOKT.02.037;Fuusikaline keemia 1. osa;6
+LOKT.02.038;Fuusikaline keemia 2. osa;3
+LOKT.02.039;Fuusikalise keemia seminar 1. osa;3
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOKT.06.028;Analuutilise keemia praktikum I;6
+LOKT.06.011;Analuutilise keemia seminar I;3
+LOKT.10.018;Bioorgaanilise keemia praktikum;3
+LOKT.02.041;Fuusikalise keemia praktikum I;3
+LOKT.02.040;Fuusikalise keemia seminar 2. osa;3
+LOKT.09.014;Orgaanilise keemia praktikum;6
+LOKT.10.012;Bioorgaaniline keemia;6
+LOKT.04.004;Keskkonnakeemia I;3
+LOKT.04.003;Kolloid- ja pindnahtuste keemia I;3
+LOKT.09.016;Materjalide keemia I;3
+LOKT.09.019;Polumeeride keemia;3
+LOKT.08.001;Teoreetiline keemia;6
+LOKT.06.013;Analuutiline keemia II;3
+LOKT.06.015;Analuutilise keemia praktikum II;6
+LOKT.06.014;Analuutilise keemia seminar II;3
+LOKT.02.042;Fuusikalise keemia praktikum II;6
+LOKT.09.029;Orgaaniline keemia II;3
+LOKT.09.032;Orgaanilise keemia seminar II;3

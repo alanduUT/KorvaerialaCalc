@@ -1,0 +1,16 @@
+LOOM.02.044;Geoinformaatika I;3
+LOKT.04.006;Keskkonna analuus;3
+LOKT.04.034;Keskkonna analuusi praktikum;3
+LOOM.01.121;Sissejuhatus eukaruootide mitmekesisusse - protistid ja seened;2
+LOOM.04.079;Sissejuhatus zooloogiasse;2
+LOOM.01.122;Sissejuhatus taimeteadusesse;2
+LOFY.03.056;Toenaosusteooria ja statistika;3
+LOOM.01.073;Okoloogia rakendusi;3
+LOKT.04.016;Okotoksikoloogia;3
+LOOM.02.190;Ehituse ja veemajanduse inseneralused;3
+LOOM.03.083;Hudrogeoloogia;3
+LOOM.03.118;Maavarad ja kaevandustehnoloogiad;6
+LOFY.05.054;Modelleerimine keskkonnatehnoloogias;3
+LOOM.02.170;Mullateadus I;3
+LOKT.04.039;Ohtlike jaatmete kaitlemine;3
+LOFY.05.032;Ohu saasteseire korraldamine;3

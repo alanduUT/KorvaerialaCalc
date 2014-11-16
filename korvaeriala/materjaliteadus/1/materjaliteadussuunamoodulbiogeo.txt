@@ -1,0 +1,7 @@
+LOFY.02.039;Aine elektrilised omadused;6
+LOKT.01.007;Anorgaaniline keemia;6
+LOFY.02.003;Fuusikaliste mootmiste praktikum;3
+LOKT.01.003;Keemia aluste praktikum I;3
+LOFY.02.005;Materjalifuusika praktikum I. Mehaanika ja soojus;6
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3

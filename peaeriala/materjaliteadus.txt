@@ -1,0 +1,36 @@
+MTMM.00.271;Algebra ja geomeetria;3
+MTMM.00.188;Korgem matemaatika;6
+LOFY.04.042;Matemaatiline fuusika I;6
+LOFY.03.030;Praktiline kvantmehaanika;3
+MTAT.03.236;Programmeerimise alused;3
+LOFY.03.056;Toenaosusteooria ja statistika;3
+LOKT.01.007;Anorgaaniline keemia;6
+LOFY.01.002;Fuusikaline maailmapilt;6
+LOFY.02.003;Fuusikaliste mootmiste praktikum;3
+LOKT.07.010;Keemia alused;6
+LOKT.01.003;Keemia aluste praktikum I;3
+LOFY.02.039;Aine elektrilised omadused;6
+LOFY.02.054;Aine mehhaanilised ja soojuslikud omadused;6
+LOKT.06.010;Analuutiline keemia I;6
+LOKT.02.037;Fuusikaline keemia 1. osa;6
+LOFY.02.004;Aine ehituse praktikum I;3
+LOKT.06.012;Analuutilise keemia praktikum I;3
+LOKT.02.041;Fuusikalise keemia praktikum I;3
+LOKT.02.039;Fuusikalise keemia seminar 1. osa;3
+LOFY.02.055;Materjalifuusika praktikum I. Mehaanika ja soojus;3
+LOFY.02.006;Materjalifuusika praktikum II. Elekter ja magnetism;3
+LOFY.02.007;Materjalifuusika praktikum III. Optika;3
+LOKT.09.015;Orgaanilise keemia praktikum;3
+LOFY.02.002;Aine ehitus I;6
+LOFY.02.040;Aine optilised omadused;6
+LOKT.02.038;Fuusikaline keemia 2. osa;3
+LOFY.02.010;Fuusikalised materjalitehnoloogiad;3
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOKT.06.037;Erimaterjalide keemia;3
+LOFY.02.013;Kiletehnoloogia I;3
+LOKT.09.016;Materjalide keemia I;3
+LOKT.01.047;Pinna mikroskoopia ja analuus I;3
+LOFY.02.020;Rontgenstruktuuranaluus I;3
+LOFY.02.008;Sissejuhatus materjaliteadusse;3
+LOKT.06.017;Spektroskoopilised analuusimeetodid;6

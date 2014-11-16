@@ -1,0 +1,14 @@
+LOKT.01.007;Anorgaaniline keemia;6
+LOKT.01.002;Anorgaanilise keemia seminar;3
+LOKT.01.008;Keemia pohimoisted;3
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOKT.01.049;Uldise ja anorgaanilise keemia praktikum;6
+LOMR.08.005;Biokeemia I;3
+LOKT.02.036;Fuusikaline keemia;3
+LOKT.01.006;Keemiaulesannete lahendamine;3
+LOKT.04.010;Keskkonnakeemia koolis;3
+LOKT.01.040;Koolikeemia;3
+LOKT.01.050;Koolikeemia praktikum;3
+LOKT.09.016;Materjalide keemia I;3
+LOKT.09.015;Orgaanilise keemia praktikum;3

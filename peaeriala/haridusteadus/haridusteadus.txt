@@ -1,0 +1,14 @@
+FLEE.02.042;Eesti oigekeelsus ja valjendusopetus;3
+HTPK.01.226;Konfliktidega toimetulek koolis;3
+MTMM.00.242;Matemaatika alused;3
+HTPK.01.063;Pedagoogika uurimismeetodid;3
+SHPH.00.038;Psuuhika pohifunktsioonid;6
+HTHT.00.018;Tutvumis- ja vaatluspraktika;3
+SHHI.01.006;Ulddidaktika ja kasvatustoo alused;3
+ARFS.01.053;Fusioloogia praktikum;2
+LOFY.01.091;Fuusikaline maailmapilt;6
+LOMR.09.032;Inimese anatoomia ja fusioloogia (koos praktikumiga);4
+LOOM.03.115;Maateaduste alused I;3
+LOOM.02.148;Maateaduste alused II;3
+LOKT.01.058;Uldine keemia;3
+LOKT.01.046;Uldkeemia seminar;3

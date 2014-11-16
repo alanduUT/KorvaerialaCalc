@@ -1,0 +1,14 @@
+LOKT.06.010;Analuutiline keemia I;6
+LOKT.06.028;Analuutilise keemia praktikum I;6
+LOKT.01.010;Anorgaanilise keemia praktikum I;3
+LOKT.10.012;Bioorgaaniline keemia;6
+LOKT.02.037;Fuusikaline keemia 1. osa;6
+LOKT.02.038;Fuusikaline keemia 2. osa;3
+LOFY.01.002;Fuusikaline maailmapilt;6
+LOKT.02.041;Fuusikalise keemia praktikum I;3
+LOKT.04.003;Kolloid- ja pindnahtuste keemia I;3
+LOKT.09.016;Materjalide keemia I;3
+LOKT.09.018;Materjalide keemia II;3
+LOKT.09.029;Orgaaniline keemia II;3
+LOKT.09.014;Orgaanilise keemia praktikum;6
+LOKT.09.032;Orgaanilise keemia seminar II;3

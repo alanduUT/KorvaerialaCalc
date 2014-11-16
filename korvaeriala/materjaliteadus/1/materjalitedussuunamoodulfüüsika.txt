@@ -1,0 +1,5 @@
+LOKT.06.010;Analuutiline keemia I;6
+LOKT.01.007;Anorgaaniline keemia;6
+LOKT.02.037;Fuusikaline keemia 1. osa;6
+LOKT.01.003;Keemia aluste praktikum I;3
+LOKT.09.015;Orgaanilise keemia praktikum;3
