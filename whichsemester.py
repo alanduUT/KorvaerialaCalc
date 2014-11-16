@@ -1,9 +1,4 @@
-def which_semester(date):
-    d_ay = date.split("/")[0]
-    m_onth = date.split("/")[1]
-    y_ear = date.split("/")[2]
-    
-    
+def which_semester(d_ay,m_onth,y_ear):
     if m_onth.lower() == "jaanuar": 
         m_onth = 1
 
