@@ -53,24 +53,23 @@ def step2_hash(list_peaeriala,korvaeriala_module):
 def step3():
     ## CONDITIONS TO PASS STEP 2
     while True:
+        key_2 = 0
         try:
             if values_true.count(1) != 0:
+                print("key")
+                key_2 += 1
+                break
+            else:
+                messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
                 break
         except:
             messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
-            frame2.mainloop()
-    while True:
-        try:
-            if (len(k_peaeriala_choose) != len(k_eriala_choose)) and len(k_peaeriala_choose) != 1:
-                if len(k_peaeriala_module) != 0:
-                    continue    
-            if len(k_eriala_module) != 0:
-                break
-        except:
-            messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
-            frame2.mainloop()
+            break
+    if key_2 == 2:
+        frame2.destroy()
+    else:
+        frame2.mainloop()
     ## FRAME 3
-    frame2.destroy()
     global frame3
     frame3 = Tk()
     frame3.title("Kõrvaerila Kalkulaator v0.1")
