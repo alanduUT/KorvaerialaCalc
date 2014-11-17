@@ -1,4 +1,4 @@
-LOMR.07.011;Bioloogiline fuusika;3
+﻿LOMR.07.011;Bioloogiline fuusika;3
 LOMR.07.012;Fuusika alused;3
 MTMM.00.145;Korgem matemaatika;6
 LOOM.03.115;Maateaduste alused I;3
@@ -13,7 +13,7 @@ LOMR.03.010;Geneetika I;3
 LOOM.02.140;Loodus- ja keskkonnakaitse;3
 LOOM.02.148;Maateaduste alused II;3
 LOMR.06.004;Rakubioloogia I;3
-LOOM.01.105;Okoloogia;3
+LOOM.01.105;Ökoloogia;3
 LOOM.01.034;Mukoloogia;3
 LOOM.04.078;Selgroogsete zooloogia;4
 LOOM.04.077;Selgrootute zooloogia;4
@@ -34,7 +34,7 @@ LOOM.02.143;Hudroloogia;3
 OIEO.02.018;Keskkonnaoigus mittejuristidele;3
 LOOM.04.003;Looduskaitsebioloogia;3
 LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
-LOOM.03.051;Paleontoloogia ja stratigraafia aluse�;3
+LOOM.03.051;Paleontoloogia ja stratigraafia aluseâ;3
 MJRI.09.003;Sissejuhatus majandusteooriasse;3
 LOOM.01.073;Okoloogia rakendusi;3
 LOOM.01.017;Floristika valipraktika;3
