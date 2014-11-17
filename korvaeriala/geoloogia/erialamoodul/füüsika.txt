@@ -1,0 +1,5 @@
+﻿LOOM.00.022;Eesti keele suulise ja kirjaliku väljenduse õpetus;3
+LOOM.03.117;Geokeemia;6
+LOOM.03.083;Hüdrogeoloogia;3
+LOOM.03.118;Maavarad ja kaevandustehnoloogiad;6
+LOOM.03.005;Struktuurigeoloogia ja geoloogilised kaardid;6

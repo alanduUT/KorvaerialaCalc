@@ -1,0 +1,7 @@
+﻿LOFY.01.002;Füüsikaline maailmapilt;6
+MTMM.00.188;Kõrgem matemaatika;6
+LOFY.01.142;Füüsikalised mõõtmised;6
+LOFY.04.042;Matemaatiline füüsika I;6
+LOFY.04.020;Matemaatiline füüsika II;6
+LOFY.01.006;Mehaanika;5
+LOFY.01.080;Sissejuhatus erialasse;1

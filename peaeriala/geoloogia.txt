@@ -1,0 +1,40 @@
+﻿LOFY.01.002;Füüsikaline maailmapilt;6
+LOKT.07.010;Keemia alused;6
+MTMM.00.145;Kõrgem matemaatika;6
+MTMS.01.049;Tõenäosuse ja statistika algkursus;3
+LOKT.01.059;Üldkeemia praktikum loodusteaduste suunale;3
+LOMR.02.004;Evolutsioonimehhanismid;2
+LOOM.03.063;Maateaduste alused I;6
+LOOM.03.010;Maateaduste alused I välipraktika;3
+LOOM.02.238;Maateaduste alused II;4
+LOOM.01.121;Sissejuhatus eukarüootide mitmekesisusse - protistid ja seened;2
+LOOM.04.079;Sissejuhatus zooloogiasse;2
+LOOM.01.122;Sissejuhatus taimeteadusesse;2
+LOOM.01.105;Ökoloogia;3
+LOOM.03.086;Geodünaamika ja tahke Maa füüsika alused;3
+LOOM.03.023;Geoloogilise uurimistöö alused;3
+LOOM.03.017;Mineraloogia;5
+LOOM.03.051;Paleontoloogia ja stratigraafia alused;3
+LOOM.03.026;Petroloogia;5
+LOOM.03.004;Sedimentoloogia;5
+LOOM.03.049;Eesti geoloogia välipraktika;3
+LOOM.03.055;Eesti geoloogiline ehitus;3
+LOOM.02.044;Geoinformaatika I;3
+LOOM.03.087;Geoloogiline komplekspraktika;3
+LOOM.02.130;Geomorfoloogia;3
+LOKT.04.0194Keskkonnakeemia üldised alused I;3
+LOOM.02.015;Topograafia;3
+LOOM.02.008;Topograafia välipraktika;3
+LOOM.00.022;Eesti keele suulise ja kirjaliku väljenduse õpetus;3
+LOOM.03.117;Geokeemia;6
+LOOM.03.083;Hüdrogeoloogia;3
+LOOM.03.118;Maavarad ja kaevandustehnoloogiad;6
+LOOM.03.005;Struktuurigeoloogia ja geoloogilised kaardid;6
+LOOM.03.0784Ehitusgeoloogia;3
+LOOM.03.081;Kaevandusalade rekultiveerimine;3
+LOFY.05.024;Keskkonnafüüsika alused I;3
+LOOM.03.075;Keskkonnageoloogia;3
+LOKT.04.021;Keskkonnakeemia praktikum;3
+LOOM.03.072;Kvaternaarigeoloogia;3
+LOOM.03.050;Maa ja biosfääri areng ja globaalmuutused;3
+LOOM.02.170;Mullateadus I;3

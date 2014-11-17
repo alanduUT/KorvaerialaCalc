@@ -1,0 +1,36 @@
+﻿MTMM.00.188;Kõrgem matemaatika;6
+LOFY.04.042;Matemaatiline füüsika I;6
+MTAT.03.100;Programmeerimine;6
+MTMS.02.049;Tõenäosusteooria ja statistika I;6
+MTMM.00.271;Algebra ja geomeetria;3
+LOFY.01.002;Füüsikaline maailmapilt;6
+LOFY.04.020;Matemaatiline füüsika II;6
+LOFY.01.006;Mehaanika;5
+LOFY.01.003;Soojusõpetus;4
+LOFY.02.002;Aine ehitus I;6
+LOFY.01.007;Elekter ja magnetism;6
+LOFY.04.073;Kvantmehaanika I;6
+LOFY.01.008;Optika;6
+LOFY.01.122;Füüsika praktikum I - mehaanika ja soojusõpetus;5
+LOFY.01.123;Füüsika praktikum II - elekter ja magnetism;5
+LOFY.01.124;Füüsika praktikum III - optika;5
+LOFY.01.142;Füüsikalised mõõtmised;6
+LOFY.01.026;Vaakum- ja krüotehnika;3
+LOFY.04.002;Analüütiline mehaanika;5
+LOFY.04.003;Erirelatiivsusteooria;3
+LOFY.01.010;Globaalfüüsika;4
+LOTI.05.030;Kompuuterfüüsika I;3
+LOFY.04.035;Matemaatilise füüsika võrrandid;6
+LOFY.04.004;Termodünaamika ja statistiline füüsika;3
+LOFY.01.018;Signaalitöötluse alused I;3
+LOFY.01.143;Tuuma ja elementaarosakeste füüsika;6
+LOTI.05.040;Analoog- ja digitaalelektroonika;6
+LOFY.05.005;Arvutijuhitavad mõõtmised;3
+LOFY.04.014;Hüdrodünaamika I;3
+LOFY.01.021;Insenerigraafika;3
+LOFY.04.007;Kvantmehaanika jätkukursus;3
+LOFY.04.040;Mikroskoopiline elektrodünaamika;3
+LOFY.01.014;Spektraalseadmed;3
+LOFY.01.024;Spektroskoopia alused;3
+LOFY.04.008;Statistiline füüsika ja kineetika;3
+LOFY.04.052;Stohhastika füüsikutele;3

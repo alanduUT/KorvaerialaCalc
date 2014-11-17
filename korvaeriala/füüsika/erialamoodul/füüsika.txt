@@ -1,0 +1,4 @@
+﻿LOFY.02.002;Aine ehitus I;6
+LOFY.01.004;Elekter ja magnetism;6
+LOFY.04.073;Kvantmehaanika I;6
+LOFY.01.008;Optika;6

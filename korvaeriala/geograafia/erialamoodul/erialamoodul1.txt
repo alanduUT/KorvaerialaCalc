@@ -1,0 +1,7 @@
+﻿LOOM.02.236;Inimgeograafia alused;5
+LOOM.02.073;Inimgeograafia uurimismeetodid;5
+LOOM.02.063;Kohaliku ja regionaalse arengu planeerimine;3
+LOOM.02.055;Kultuurigeograafia;3
+LOOM.02.094;Maailmamajanduse geograafia;3
+LOOM.02.036;MapInfo edasijõudnutele;1
+LOOM.02.121;Ühiskonnageograafia teoreetilised lähtekohad;4

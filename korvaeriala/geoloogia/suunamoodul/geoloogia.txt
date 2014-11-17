@@ -1,0 +1,6 @@
+﻿LOOM.03.086;Geodünaamika ja tahke Maa füüsika alused;3
+LOOM.03.023;Geoloogilise uurimistöö alused;3
+LOOM.03.017;Mineraloogia;5
+LOOM.03.051;Paleontoloogia ja stratigraafia alused;3
+LOOM.03.026;Petroloogia;5
+LOOM.03.004;Sedimentoloogia;5

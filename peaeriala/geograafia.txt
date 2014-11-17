@@ -1,0 +1,43 @@
+﻿LOFY.01.002;Füüsikaline maailmapilt;6
+LOOM.02.044;Geoinformaatika I;3
+MTMM.00.145;Kõrgem matemaatika;6
+MJRI.09.003;Sissejuhatus majandusteooriasse;3
+LOOM.01.105;Ökoloogia;3
+LOKT.01.058;Üldine keemia;3
+LOOM.02.244;Geograafilise mõtte kujunemine ja geograafia ajalugu;3
+LOOM.02.236;Inimgeograafia alused;5
+LOOM.03.063;Maateaduste alused I;6
+LOOM.02.238;Maateaduste alused II;4
+LOOM.02.015;Topograafia;3
+LOOM.02.008;Topograafia välipraktika;3
+LOOM.02.065;Demograafia I;3
+LOOM.02.013;Geograafiline andmetöötlus;3
+LOOM.02.143;Hüdroloogia;3
+LOOM.02.009;Kartograafia;3
+LOOM.02.093;Linnageograafia;3
+LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
+LOOM.02.170;Mullateadus I;3
+LOOM.02.106;Turismigeograafia;3
+LOOM.01.010;Biogeograafia;3
+LOOM.02.243;Eestimaa tundmine;3
+LOOM.02.130;Geomorfoloogia;3
+LOOM.02.055;Kultuurigeograafia;3
+LOOM.02.140;Loodus- ja keskkonnakaitse;3
+LOOM.02.246;Loodusgeograafia välipraktika - geomorfoloogia, mullateadus;3
+LOOM.02.247;Loodusgeograafia välipraktika - hüdroloogia, meteoroloogia;3
+LOOM.02.094;Maailmamajanduse geograafia;3
+LOOM.02.006;Andmebaaside loomine ja kasutamine;3
+LOOM.02.173;Eesti loodusgeograafia;3
+LOOM.02.073;Inimgeograafia uurimismeetodid;5
+LOOM.02.012;Kaugseire I;3
+LOOM.02.159;Maastikuökoloogia;3
+LOOM.02.097;Planeerimise alused;3
+LOOM.02.121;Ühiskonnageograafia teoreetilised lähtekohad;4
+LOOM.02.001;Globaalökoloogia;3
+LOOM.02.119;Informatsiooni ja kommunikatsioonitehnoloogia geograafia ja mobiilpositsioneerimine;3
+LOOM.02.164;Keskkonna- ja sotsiaalse mõju hindamine;3
+LOOM.02.189;Keskkonnaseire ja -kaitse normatiivid;3
+LOOM.02.063;Kohaliku ja regionaalse arengu planeerimine;3
+LOOM.02.124;Projektijuhtimine;3
+LOOM.02.168;Teadustöö alused;3
+LOOM.02.059;Transpordigeograafia;3

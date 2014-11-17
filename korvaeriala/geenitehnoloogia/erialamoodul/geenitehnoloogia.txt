@@ -1,0 +1,7 @@
+﻿LOMR.10.002;Bioinformaatika I;3
+LOMR.02.003;Evolutsiooniline bioloogia;3
+LOMR.02.004;Evolutsioonimehhanismid;2
+ARFS.01.016;Inimese füsioloogia;4
+LOMR.03.016;Mikrobioloogia I;3
+LOMR.03.020;Mikrobioloogia II;3
+LOMR.05.008;Molekulaarbioloogia;6

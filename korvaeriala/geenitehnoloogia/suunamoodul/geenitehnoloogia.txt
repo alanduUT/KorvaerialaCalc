@@ -1,0 +1,7 @@
+﻿LOMR.09.029;Arengubioloogia;6
+LOMR.08.005;Biokeemia I;3
+LOMR.08.006;Biokeemia II;3
+LOMR.03.010;Geneetika I;3
+LOMR.03.011;Geneetika II;3
+LOMR.06.004;Rakubioloogia I;3
+LOMR.06.005;Rakubioloogia II;3

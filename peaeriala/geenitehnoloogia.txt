@@ -1,0 +1,42 @@
+﻿LOMR.07.011;Bioloogiline füüsika;3
+LOMR.07.012;Füüsika alused;3
+LOKT.07.010;Keemia alused;6
+MTMM.00.145;Kõrgem matemaatika;6
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOMR.08.005;Biokeemia I;3
+LOMR.08.006;Biokeemia II;3
+LOKT.02.036;Füüsikaline keemia;3
+LOMR.03.010;Geneetika I;3
+LOMR.03.011;Geneetika II;3
+LOMR.06.004;Rakubioloogia I;3
+LOMR.06.005;Rakubioloogia II;3
+LOKT.01.046;Üldkeemia seminar;3
+LOMR.10.002;Bioinformaatika I;3
+LOMR.02.003;Evolutsiooniline bioloogia;3
+LOMR.02.004;Evolutsioonimehhanismid;2
+ARFS.01.016;Inimese füsioloogia;4
+LOMR.03.016;Mikrobioloogia I;3
+LOMR.03.020;Mikrobioloogia II;3
+LOMR.05.008;Molekulaarbioloogia;6
+LOMR.10.007;Andmeanalüüs molekulaarbioloogias;3
+LOMR.09.029;Arengubioloogia;6
+LOMR.10.005;Bioinformaatika II;3
+LOMR.02.001;Immunoloogia ja immunogeneetika;3
+LOKT.09.015;Orgaanilise keemia praktikum;3
+LOMR.07.001;Taimefüsioloogia;3
+LOMR.04.001;Viroloogia;3
+LOMR.08.002;Biokeemia praktikum;5
+LOMR.03.023;Geneetika praktikum;4
+LOMR.03.021;Mikrobioloogia ja viroloogia praktikum;6
+LOMR.01.003;Molekulaarse biotehnoloogia praktikum;4
+LOMR.06.003;Rakubioloogia praktikum;2
+LOMR.07.006;Taimefüsioloogia praktikum;3
+LOOM.01.106;Biosüstemaatika ja elurikkuse informaatika;1
+LOMR.09.014;Inimese anatoomia ja füsioloogia alused;3
+LOMR.03.004;Mikroobide süstemaatika ja mitmekesisus;3
+LOMR.03.022;Mikroobifüsioloogia;3
+LOMR.01.001;Molekulaarne biotehnoloogia;5
+LOMR.03.006;Toiduainete mikrobioloogia;3
+LOOM.01.105;Ökoloogia;3
+LOMR.09.016;Üldine histoloogia;3

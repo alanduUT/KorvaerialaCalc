@@ -1,0 +1,8 @@
+﻿LOOM.02.006;Andmebaaside loomine ja kasutamine;3
+LOOM.02.065;Demograafia I;3
+LOOM.02.173;Eesti loodusgeograafia;3
+LOOM.02.244;Geograafilise mõtte kujunemine ja geograafia ajalugu;3
+LOOM.02.044;Geoinformaatika I;3
+LOOM.02.001;Globaalökoloogia;3
+LOOM.02.009;Kartograafia;3
+LOOM.02.097;Planeerimise alused;3
