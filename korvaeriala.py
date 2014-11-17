@@ -9,11 +9,32 @@ frame.title("Kõrvaerila Kalkulaator v0.1")
 frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
-def step2_hash(listi):
+def step2_hash(list_peaeriala,list_korvaeriala):
     smth
+## STEP 3
 def step3():
-    print("Hey")
-    frame2.mainloop()
+    ## CONDITIONS TO PASS STEP 2
+    while True:
+        try:
+            if values_true.count(1) != 0:
+                break
+        except:
+            messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
+            frame2.mainloop()
+    while True:
+        try:
+            if len(k_eriala_module) != 1:
+                break
+        except:
+            messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
+            frame2.mainloop()
+    frame2.destroy()
+    global frame3
+    frame3 = Tk()
+    frame3.title("Kõrvaerila Kalkulaator v0.1")
+    frame3.config(bg = "#F8F8F8")
+    frame3.geometry("1100x700")
+    return print("Hey")
 def year_semester(day,month,year):
     global date
     if month.lower() == "jaanuar": 
@@ -81,6 +102,7 @@ def chosen_module():
     k_eriala_module = string.get()
     return k_eriala_module
 def users_subjects():
+    global values_true
     values = []
     for j in range(len(p_eriala_choose)):
         values.append(j)
@@ -120,8 +142,9 @@ def step2():
             Z_3 = d_ay
             Z_4 = m_onth
             Z_5 = y_ear
-            if p_eriala.lower() != k_eriala.lower():
-                Z += 1
+            if Z_1 == Z_2:
+                messagebox.showinfo(message="Kõrvaeriala ja peaeriala peavad olema erinevad!")
+                break
         except:
             messagebox.showinfo(message="Kõik peab olema täidetud")
             break
