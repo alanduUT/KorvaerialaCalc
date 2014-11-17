@@ -61,7 +61,10 @@ def step3():
             frame2.mainloop()
     while True:
         try:
-            if len(k_eriala_module) != 1:
+            if (len(k_peaeriala_choose) != len(k_eriala_choose)) and len(k_peaeriala_choose) != 1:
+                if len(k_peaeriala_module) != 0:
+                    continue    
+            if len(k_eriala_module) != 0:
                 break
         except:
             messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
