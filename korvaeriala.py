@@ -9,6 +9,11 @@ frame.title("Kõrvaerila Kalkulaator v0.1")
 frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
+def step2_hash(listi):
+    smth
+def step3():
+    print("Hey")
+    frame2.mainloop()
 def year_semester(day,month,year):
     global date
     if month.lower() == "jaanuar": 
@@ -74,7 +79,7 @@ def year_semester(day,month,year):
 def chosen_module():
     global k_eriala_module
     k_eriala_module = string.get()
-    print(k_eriala_module)
+    return k_eriala_module
 def users_subjects():
     values = []
     for j in range(len(p_eriala_choose)):
@@ -84,6 +89,7 @@ def users_subjects():
         values[n] = var[n].get()
         n += 1
     values_true = deepcopy(values)
+    return values_true
 def getpeaeriala(arg):
     global p_eriala
     p_eriala = peaeriala.get()
@@ -114,11 +120,13 @@ def step2():
             Z_3 = d_ay
             Z_4 = m_onth
             Z_5 = y_ear
+            if p_eriala.lower() != k_eriala.lower():
+                Z += 1
         except:
             messagebox.showinfo(message="Kõik peab olema täidetud")
             break
         Z += 1
-        if Z == 5:
+        if Z == 6:
             key_1 = 1
     if key_1 == 0:
         frame.mainloop()
@@ -143,6 +151,7 @@ def step2():
             p_eriala_choose.append(splited[1])
         sum_length = str(45*20 + 10)
         ## CONSTRUCT FRAME2 WITH GIVEN VARIABLES
+        global frame2
         frame2 = Tk()
         frame2.title("Kõrvaerila Kalkulaator v0.1")
         frame2.config(bg = "#F8F8F8")
@@ -178,7 +187,11 @@ def step2():
             k_eriala_choose[k].config(bg = "#F8F8F8")
             k_eriala_choose[k].place(x = 700, y = (int(sum_length)/2+k*20))
         print(year_semester(d_ay,m_onth,y_ear))
+        ## BUTTON STEP 3
+        button_step_3 = Button(frame2, text = "Edasi", bg = "#00CC33", font = b_i_font, command = step3)
+        button_step_3.place(x = 750, y = (int(sum_length)/2+k*20 + 100))
 ## FONTS
+global b_i_font
 p_k_font = font.Font(size = 15, weight = "bold")
 b_i_font = font.Font(weight = "bold", size = 10)
 global k_choose_font
