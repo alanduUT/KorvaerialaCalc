@@ -9,8 +9,30 @@ frame.title("Kõrvaerila Kalkulaator v0.1")
 frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
-def step2_hash(list_peaeriala,list_korvaeriala):
-    smth
+def step2_hash(list_peaeriala,korvaeriala):
+    values_true_hash = set()
+    for v_t in range(len(list_peaeriala)):
+        if list_peaeriala[v_t] == 1:
+            var_2 = (p_eriala_choose[v_t])
+            values_true_hash.add(var_2)
+    k_eriala_hash = set()
+    ## IT IS NOT DONE, MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS 
+    file_2 = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower()) + "\\" + "suunamoodul\\" + str(korvaeriala), encoding = "UTF-8")
+    file_3 = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower()) + "\\" + "erialamoodul\\" + str(k_eriala.lower()) + ".txt",encoding = "UTF-8")
+    files_2 = file_2.readlines()
+    files_3 = file_3.readlines()
+    files_2[0] = files_2[0].replace("\ufeff", "")
+    files_3[0] = files_3[0].replace("\ufeff", "")
+    for f_2 in files_2:
+        splited_2 = f_2.split(";")
+        var_2 = (splited_2[1])
+        k_eriala_hash.add(var_2)
+    for f_3 in files_3:
+        splited_3 = f_3.split(";")
+        var_3 = (splited_3[1])
+        k_eriala_hash.add(var_3)
+    result_hash = k_eriala_hash - values_true_hash
+    return print(result_hash)
 ## STEP 3
 def step3():
     ## CONDITIONS TO PASS STEP 2
@@ -34,6 +56,7 @@ def step3():
     frame3.title("Kõrvaerila Kalkulaator v0.1")
     frame3.config(bg = "#F8F8F8")
     frame3.geometry("1100x700")
+    step2_hash(values_true, k_eriala_module)
     return print("Hey")
 def year_semester(day,month,year):
     global date
@@ -200,7 +223,7 @@ def step2():
                 check_p[n] = Checkbutton(frame2,text = str(p_eriala_choose[n]),variable = var[n],offvalue = 0, onvalue = 1, command = users_subjects)
                 check_p[n].config(bg = "#F8F8F8")
                 check_p[n].place(x = 5, y = (5+n*20))
-        ##  RADIOBUTTON FOR KORVAERIALA
+        ##  RADIOBUTTON FOR KORVAERIALA  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS 
         k_choose_label = Label(frame2, text = ("Valige " + str(k_eriala).upper() +" suunamoodul"), font = k_choose_font, bg = "#F8F8F8")
         k_choose_label.place( x = 700, y = (int(sum_length)/2-40))
         global string
