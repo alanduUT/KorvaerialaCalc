@@ -9,6 +9,72 @@ frame.title("Kõrvaerila Kalkulaator v0.1")
 frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
+def year_semester(day,month,year):
+    global date
+    if month.lower() == "jaanuar": 
+        month = 1
+
+    elif month.lower() == "veebruar": 
+        month = 2
+
+    elif month.lower() == "märts": 
+        month = 3
+
+    elif month.lower() == "aprill": 
+        month = 4
+
+    elif month.lower() == "mai": 
+        month = 5
+
+    elif month.lower() == "juuni": 
+        month = 6
+
+    elif month.lower() == "juuli": 
+        month = 7
+
+    elif month.lower() == "august": 
+        month = 8
+
+    elif month.lower() == "september": 
+        month = 9
+        
+    elif month.lower() == "oktoober": 
+        month = 10
+        
+    elif month.lower() == "november": 
+        month = 11
+              
+    elif month.lower() == "detsember": 
+        month = 12
+        
+    if month == 1 or (month == 2 and int(day) < 9):
+        date = []
+        date.append(str(int(year)-1)[2:5]+"/"+str(year)[2:5])
+        date.append("K")
+        return date
+    
+    elif month == 2 and int(day) >= 9:
+        date = []
+        date.append(str(year)[2:5] +"/"+str(int(year)+1)[2:5])
+        date.append("S")
+        return date
+    
+    elif month > 2 and month < 9 or (month == 9 and int(day) < 16):
+        date = []
+        date.append(str(year)[2:5] +"/"+str(int(year)+1)[2:5])
+        date.append("S")
+        return date
+
+    elif month == 9 and int(day) >= 16:
+        date = []
+        date.append(str(year)[2:5] +"/"+str(int(year)+1)[2:5])
+        date.append("K")
+        return date
+    
+def chosen_module():
+    global k_eriala_module
+    k_eriala_module = string.get()
+    print(k_eriala_module)
 def users_subjects():
     values = []
     for j in range(len(p_eriala_choose)):
@@ -105,12 +171,13 @@ def step2():
         ##  RADIOBUTTON FOR KORVAERIALA
         k_choose_label = Label(frame2, text = ("Valige " + str(k_eriala).upper() +" suunamoodul"), font = k_choose_font, bg = "#F8F8F8")
         k_choose_label.place( x = 700, y = (int(sum_length)/2-40))
+        global string
         string = StringVar()
         for k in range(len(k_eriala_choose)):
-            k_eriala_choose[k] = Radiobutton(frame2, text = str(k_eriala_choose[k][:len(k_eriala_choose[k])-4]).capitalize()+" suunamoodul", variable = string, value = k_eriala_choose[k])
+            k_eriala_choose[k] = Radiobutton(frame2, text = str(k_eriala_choose[k][:len(k_eriala_choose[k])-4]).capitalize()+" suunamoodul", variable = string, value = k_eriala_choose[k], command = chosen_module)
             k_eriala_choose[k].config(bg = "#F8F8F8")
             k_eriala_choose[k].place(x = 700, y = (int(sum_length)/2+k*20))
-        
+        print(year_semester(d_ay,m_onth,y_ear))
 ## FONTS
 p_k_font = font.Font(size = 15, weight = "bold")
 b_i_font = font.Font(weight = "bold", size = 10)
@@ -163,3 +230,4 @@ year.bind("<<ComboboxSelected>>", getyear)
 ## NEXT BUTTON
 button_next = Button(frame, text = "Edasi", command = step2, bg = "#00CC33", font = b_i_font)
 button_next.place(x = 245, y = 70)
+##

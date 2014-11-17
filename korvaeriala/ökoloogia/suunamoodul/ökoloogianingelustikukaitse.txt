@@ -1,4 +1,4 @@
-LOOM.01.034;Mukoloogia;3
+﻿LOOM.01.034;Mukoloogia;3
 LOOM.04.078;Selgroogsete zooloogia;4
 LOOM.04.077;Selgrootute zooloogia;4
 LOOM.01.121;Sissejuhatus eukaruootide mitmekesisusse - protistid ja seened;2
