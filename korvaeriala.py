@@ -60,11 +60,30 @@ def step3():
                 key_2 += 1
                 break
             else:
-                messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
-                break
+                return messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
         except:
-            messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
-            break
+            return messagebox.showinfo(message="Teie peaeriala ainede nimekiri on tühi")
+    if (len(k_peaeriala_choose) != len(k_eriala_choose)) and len(k_peaeriala_choose) != 1:
+        while True:
+            try:
+                if len(k_peaeriala_module) != 0 and len(k_eriala_module) != 0:
+                    key_2 += 1
+                    break
+                else:
+                    return messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
+            except:
+                return messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
+                
+    else:
+        while True:
+            try:
+                if len(k_eriala_module) != 0:
+                    key_2 += 1
+                    break
+                else:
+                    return messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
+            except:
+                return messagebox.showinfo(message="Valige kõrvaeriala, kui must punkt on olemas siis vajutage  must punkti UUESTI!")
     if key_2 == 2:
         frame2.destroy()
     else:
@@ -192,6 +211,7 @@ def step2():
             Z_4 = m_onth
             Z_5 = y_ear
             if Z_1 == Z_2:
+
                 messagebox.showinfo(message="Kõrvaeriala ja peaeriala peavad olema erinevad!")
                 break
         except:
