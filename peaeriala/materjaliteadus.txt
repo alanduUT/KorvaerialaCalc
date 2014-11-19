@@ -1,4 +1,4 @@
-MTMM.00.271;Algebra ja geomeetria;3
+﻿MTMM.00.271;Algebra ja geomeetria;3
 MTMM.00.188;Korgem matemaatika;6
 LOFY.04.042;Matemaatiline fuusika I;6
 LOFY.03.030;Praktiline kvantmehaanika;3

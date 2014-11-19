@@ -1,4 +1,4 @@
-LOKT.06.010;Analuutiline keemia I;6
+﻿LOKT.06.010;Analuutiline keemia I;6
 LOKT.06.028;Analuutilise keemia praktikum I;6
 LOKT.01.010;Anorgaanilise keemia praktikum I;3
 LOKT.10.012;Bioorgaaniline keemia;6

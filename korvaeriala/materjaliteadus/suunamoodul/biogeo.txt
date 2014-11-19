@@ -1,4 +1,4 @@
-LOFY.02.039;Aine elektrilised omadused;6
+﻿LOFY.02.039;Aine elektrilised omadused;6
 LOKT.01.007;Anorgaaniline keemia;6
 LOFY.02.003;Fuusikaliste mootmiste praktikum;3
 LOKT.01.003;Keemia aluste praktikum I;3

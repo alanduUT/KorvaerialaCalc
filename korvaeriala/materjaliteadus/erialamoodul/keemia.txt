@@ -1,4 +1,4 @@
-LOFY.02.002;Aine ehitus I;6
+﻿LOFY.02.002;Aine ehitus I;6
 LOFY.02.004;Aine ehituse praktikum I;3
 LOFY.02.010;Fuusikalised materjalitehnoloogiad;3
 LOKT.01.047;Pinna mikroskoopia ja analuus I;3
