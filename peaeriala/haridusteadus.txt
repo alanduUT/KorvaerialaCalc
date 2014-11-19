@@ -55,8 +55,8 @@ LOOM.02.244;Geograafilise motte kujunemine ja geograafia ajalugu;3
 LOOM.02.044;Geoinformaatika I;3
 LOOM.02.055;Kultuurigeograafia;3
 LOOM.02.248;Loodusgeograafia valipraktika - geomorfoloogia, meteoroloogia;3
-LOOM.02.059;ranspordigeograafia;3
-LOOM.01.105;Okoloogia;3
+LOOM.02.059;Transpordigeograafia;3
+LOOM.01.105;Ökoloogia;3
 LOKT.01.007;Anorgaaniline keemia;6
 LOKT.01.002;Anorgaanilise keemia seminar;3
 LOKT.01.008;Keemia pohimoisted;3
