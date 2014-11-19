@@ -15,6 +15,9 @@ def step2_hash(list_peaeriala,korvaeriala_module):
         if list_peaeriala[v_t] == 1:
             var_2 = (p_eriala_choose[v_t])
             values_true_hash.add(var_2)
+    global k_super_list
+    k_super_list = list()
+    k_korvaeriala_hash_list = list()
     k_eriala_hash = set()
     ## IT IS NOT DONE, MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS  MORE CONDITIONS
     if (len(k_peaeriala_choose) != len(k_eriala_choose)) and len(k_peaeriala_choose) != 1:
@@ -28,10 +31,29 @@ def step2_hash(list_peaeriala,korvaeriala_module):
             splited_2 = f_2.split(";")
             var_2 = (splited_2[1])
             k_eriala_hash.add(var_2)
+            k_korvaeriala_hash_list.append(var_2)
         for f_3 in files_3:
             splited_3 = f_3.split(";")
             var_3 = (splited_3[1])
             k_eriala_hash.add(var_3)
+            k_korvaeriala_hash_list.append(var_3)
+    elif len(k_eriala_choose) > 2:
+        file_2 = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower()) + "\\" + "suunamoodul\\" + str(korvaeriala_module), encoding = "UTF-8")
+        file_3 = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower()) + "\\" + "erialamoodul\\" + str(korvaeriala_module.lower()),encoding = "UTF-8")
+        files_2 = file_2.readlines()
+        files_3 = file_3.readlines()
+        files_2[0] = files_2[0].replace("\ufeff", "")
+        files_3[0] = files_3[0].replace("\ufeff", "")
+        for f_2 in files_2:
+            splited_2 = f_2.split(";")
+            var_2 = (splited_2[1])
+            k_eriala_hash.add(var_2)
+            k_korvaeriala_hash_list.append(var_2)
+        for f_3 in files_3:
+            splited_3 = f_3.split(";")
+            var_3 = (splited_3[1])
+            k_eriala_hash.add(var_3)
+            k_korvaeriala_hash_list.append(var_3)
     else:
         file_2 = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower()) + "\\" + "suunamoodul\\" + str(korvaeriala_module), encoding = "UTF-8")
         file_3 = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower()) + "\\" + "erialamoodul\\" + str(k_eriala.lower()) + ".txt",encoding = "UTF-8")
@@ -43,12 +65,21 @@ def step2_hash(list_peaeriala,korvaeriala_module):
             splited_2 = f_2.split(";")
             var_2 = (splited_2[1])
             k_eriala_hash.add(var_2)
+            k_korvaeriala_hash_list.append(var_2)
         for f_3 in files_3:
             splited_3 = f_3.split(";")
             var_3 = (splited_3[1])
             k_eriala_hash.add(var_3)
+            k_korvaeriala_hash_list.append(var_3)
+    global result_hash
     result_hash = k_eriala_hash - values_true_hash
-    return print(result_hash)
+    for k in k_korvaeriala_hash_list:
+        if (k in result_hash):
+            k_super_list.append(k)
+            
+    print(k_super_list)
+    print(result_hash)
+    return (result_hash, k_super_list)
 ## STEP 3
 def step3():
     ## CONDITIONS TO PASS STEP 2
@@ -88,15 +119,40 @@ def step3():
         frame2.destroy()
     else:
         frame2.mainloop()
-    ## FRAME 3
+    ## FRAME 3 FRAME 3 FRAME 3 FRAME 3 FRAME 3 FRAME 3
+    step2_hash(values_true, k_eriala_module)
     global frame3
+    global var_valik
+    var_valik = []
+    for v_va in k_super_list:
+        if (v_va in result_hash):
+            var_valik.append(k_super_list.index(v_va))
     frame3 = Tk()
     frame3.title("Kõrvaerila Kalkulaator v0.1")
     frame3.config(bg = "#F8F8F8")
-    frame3.geometry("1100x700")
-    step2_hash(values_true, k_eriala_module)
+    frame3.geometry("200x"+str(20*len(var_valik) + 50))
+    for v_val in range(len(var_valik)):
+        var_valik[v_val] = IntVar()
+        k_super_list[v_val] = Checkbutton(frame3, text = str(k_super_list[v_val]), variable = var_valik[v_val], offvalue = 0, onvalue = 1, command = valikained)
+        k_super_list[v_val].config(bg = "#F8F8F8")
+        k_super_list[v_val].place(x = 5, y = (5+v_val*20))
+    
     ##
     return print("Hey")
+## FUNCTIONS
+def valikained():
+    global valikained
+    valikained = []
+    for q in range(len(var_valik)):
+        valikained.append(q)
+    v_val = 0
+    while v_val <= len(var_valik)-1:
+        valikained[v_val] = var_valik[v_val].get()
+        v_val += 1
+    valikained_true = deepcopy(valikained)
+    print(valikained_true)
+    return valikained_true                                       
+                                       
 def year_semester(day,month,year):
     global date
     if month.lower() == "jaanuar": 
@@ -277,7 +333,7 @@ def step2():
             k_eriala_choose[k] = Radiobutton(frame2, text = str(k_eriala_choose[k][:len(k_eriala_choose[k])-4]).capitalize()+" suunamoodul", variable = string, value = k_eriala_choose[k], command = chosen_module)
             k_eriala_choose[k].config(bg = "#F8F8F8")
             k_eriala_choose[k].place(x = 700, y = (int(sum_length)/2+k*20))
-        print(year_semester(d_ay,m_onth,y_ear))
+        #print(year_semester(d_ay,m_onth,y_ear))
         ## CONDITION FOR KORVAERIALA ERIALA MOODUL
         global k_peaeriala_choose
         k_eriala_path = (r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\korvaeriala\\" + str(k_eriala.lower())+"\\" +"erialamoodul\\")
@@ -288,13 +344,13 @@ def step2():
             global string_2
             string_2 = StringVar()
             for k_p in range(len(k_peaeriala_choose)):
-                print(k_peaeriala_choose[k_p])
                 k_peaeriala_choose[k_p] = Radiobutton(frame2, text = (str(k_peaeriala_choose[k_p][:len(k_peaeriala_choose[k_p])-4]).capitalize() + " erialamoodul"), variable = string_2, value = k_peaeriala_choose[k_p], command = chosen_module)
                 k_peaeriala_choose[k_p].config(bg = "#F8F8F8")
                 k_peaeriala_choose[k_p].place(x = 700, y = (int(sum_length)/2 + (k+5)*20 + 20*k_p))
         ## BUTTON STEP 3
         button_step_3 = Button(frame2, text = "Edasi", bg = "#00CC33", font = b_i_font, command = step3)
         button_step_3.place(x = 750, y = (int(sum_length)/2+k*20 +180))
+        ## END OF STEP 2
 ## FONTS
 global b_i_font
 p_k_font = font.Font(size = 15, weight = "bold")
@@ -316,7 +372,7 @@ k_label = Label(frame, text = "Kõrvaeriala", font = p_k_font, bg = "#F8F8F8")
 k_label.place(x = 150, y = 10)
 
 korvaeriala = ttk.Combobox(frame)
-korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Keemia","Materjaliteadus","Ökoloogia","Geograafia","Bioloogia"]
+korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Haridusteadus","Keskkonnatehnoloogia","Keemia","Materjaliteadus","Ökoloogia","Geograafia","Geenitehnoloogia"]
 korvaeriala.pack()
 korvaeriala.place(x = 150, y = 40)
 
