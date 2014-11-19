@@ -1,7 +1,7 @@
 ﻿LOFY.02.002;Aine ehitus I;6
-LOKT.06.012;Analuutilise keemia praktikum I;3
-LOKT.02.038;Fuusikaline keemia 2. osa;3
-LOKT.02.041;Fuusikalise keemia praktikum I;3
-LOFY.02.010;Fuusikalised materjalitehnoloogiad;3
+LOKT.06.012;Analüütilise keemia praktikum I;3
+LOKT.02.038;Füüsikaline keemia 2. osa;3
+LOKT.02.041;Füüsikalise keemia praktikum I;3
+LOFY.02.010;Füüsikalised materjalitehnoloogiad;3
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3

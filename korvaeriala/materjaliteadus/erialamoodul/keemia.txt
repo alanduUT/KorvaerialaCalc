@@ -1,6 +1,6 @@
 ﻿LOFY.02.002;Aine ehitus I;6
 LOFY.02.004;Aine ehituse praktikum I;3
-LOFY.02.010;Fuusikalised materjalitehnoloogiad;3
-LOKT.01.047;Pinna mikroskoopia ja analuus I;3
-LOFY.02.020;Rontgenstruktuuranaluus I;3
-LOKT.06.017;Spektroskoopilised analuusimeetodid;6
+LOFY.02.010;Füüsikalised materjalitehnoloogiad;3
+LOKT.01.047;Pinna mikroskoopia ja analüüs I;3
+LOFY.02.020;Röntgenstruktuuranalüüs I;3
+LOKT.06.017;Spektroskoopilised analüüsimeetodid;6

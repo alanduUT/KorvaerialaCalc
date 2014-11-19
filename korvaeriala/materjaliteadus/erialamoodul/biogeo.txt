@@ -1,5 +1,5 @@
 ﻿LOFY.02.002;Aine ehitus I;6
-LOKT.06.010;Analuutiline keemia I;6
-LOKT.02.037;Fuusikaline keemia 1. osa;6
-LOFY.02.010;Fuusikalised materjalitehnoloogiad;3
+LOKT.06.010;Analüütiline keemia I;6
+LOKT.02.037;Füüsikaline keemia 1. osa;6
+LOFY.02.010;Füüsikalised materjalitehnoloogiad;3
 LOKT.09.016;Materjalide keemia I;3
