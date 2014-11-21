@@ -1,0 +1,11 @@
+﻿Arvutitehnika;4238
+Bioloogia;4237
+Füüsika;4236
+Geenitehnoloogia;4287
+Geograafia;4240
+Geoloogia;4241
+Haridusteadus;4211
+Keemia;4199
+Keskkonnatehnoloogia;4234
+Materjaliteadus;4245
+Ökoloogia;4242

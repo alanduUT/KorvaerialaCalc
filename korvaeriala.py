@@ -3,12 +3,45 @@ from tkinter import ttk
 from tkinter import messagebox
 from copy import deepcopy
 from os import listdir
+from urllib import urlopen
 ## FRAME
 frame = Tk()
 frame.title("Kõrvaerila Kalkulaator v0.1")
 frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
+def step4():
+    #print(result_hash)
+    global final_hash
+    med_hash = set()
+    while True:
+        try:
+            if 1 in valikained_true:
+                for one in range(len(valikained_true)):
+                    if valikained_true[one] == 1:
+                        one_ = (best_list[one])
+                        med_hash.add(one_)
+                final_hash = result_hash - med_hash
+                break
+            else:
+                final_hash = result_hash
+                break
+        except:
+            final_hash = result_hash
+            break
+    frame3.destroy()
+    frame4 = Tk()
+    frame4.title("Kõrvaerila Kalkulaator v0.1")
+    frame4.config(bg = "#F8F8F8")
+    frame4.geometry("600x600")
+    print(final_hash)
+    _best_list = deepcopy(best_list)
+    for b in _best_list:
+        if not (b in final_hash):
+            _best_list.remove(b)
+    subject_code_finder(_best_list) 
+        
+    
 def step2_hash(list_peaeriala,korvaeriala_module):
     values_true_hash = set()
     for v_t in range(len(list_peaeriala)):
@@ -76,9 +109,11 @@ def step2_hash(list_peaeriala,korvaeriala_module):
     for k in k_korvaeriala_hash_list:
         if (k in result_hash):
             k_super_list.append(k)
+    global best_list
+    best_list = deepcopy(k_super_list)
             
-    print(k_super_list)
-    print(result_hash)
+    #print(k_super_list)
+    #print(result_hash)
     return (result_hash, k_super_list)
 ## STEP 3
 def step3():
@@ -87,7 +122,6 @@ def step3():
         key_2 = 0
         try:
             if values_true.count(1) != 0:
-                print("key")
                 key_2 += 1
                 break
             else:
@@ -130,18 +164,24 @@ def step3():
     frame3 = Tk()
     frame3.title("Kõrvaerila Kalkulaator v0.1")
     frame3.config(bg = "#F8F8F8")
-    frame3.geometry("200x"+str(20*len(var_valik) + 50))
+    frame3.geometry("200x"+str(20*len(var_valik) + 100))
     for v_val in range(len(var_valik)):
         var_valik[v_val] = IntVar()
         k_super_list[v_val] = Checkbutton(frame3, text = str(k_super_list[v_val]), variable = var_valik[v_val], offvalue = 0, onvalue = 1, command = valikained)
         k_super_list[v_val].config(bg = "#F8F8F8")
         k_super_list[v_val].place(x = 5, y = (5+v_val*20))
-    
+    ##STEP 4 BUTTON
+    button_step_4 = Button(frame3, text = "Edasi", bg = "#00CC33", font = b_i_font, command = step4)
+    button_step_4.place(x = 100, y = (50+v_val*20))
     ##
-    return print("Hey")
 ## FUNCTIONS
+def subject_code_finder(best_list):
+    print(best_list)
+    
+    
 def valikained():
     global valikained
+    global valikained_true
     valikained = []
     for q in range(len(var_valik)):
         valikained.append(q)
@@ -150,7 +190,6 @@ def valikained():
         valikained[v_val] = var_valik[v_val].get()
         v_val += 1
     valikained_true = deepcopy(valikained)
-    print(valikained_true)
     return valikained_true                                       
                                        
 def year_semester(day,month,year):
