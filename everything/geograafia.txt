@@ -1,0 +1,23 @@
+﻿LOOM.02.006;Andmebaaside loomine ja kasutamine;3
+LOOM.02.065;Demograafia I;3
+LOOM.02.173;Eesti loodusgeograafia;3
+LOOM.02.244;Geograafilise mõtte kujunemine ja geograafia ajalugu;3
+LOOM.02.044;Geoinformaatika I;3
+LOOM.02.001;Globaalökoloogia;3
+LOOM.02.009;Kartograafia;3
+LOOM.02.097;Planeerimise alused;3
+LOOM.02.236;Inimgeograafia alused;5
+LOOM.02.073;Inimgeograafia uurimismeetodid;5
+LOOM.02.063;Kohaliku ja regionaalse arengu planeerimine;3
+LOOM.02.055;Kultuurigeograafia;3
+LOOM.02.094;Maailmamajanduse geograafia;3
+LOOM.02.036;MapInfo edasijõudnutele;1
+LOOM.02.121;Ühiskonnageograafia teoreetilised lähtekohad;4
+LOOM.02.143;Hüdroloogia;3
+LOOM.02.012;Kaugseire I;3
+LOOM.02.159;Maastikuökoloogia;3
+LOOM.02.238;Maateaduste alused II;4
+LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
+LOOM.02.170;Mullateadus I;3
+LOOM.02.050;Tarkvara ArcGIS;2
+LOOM.01.105;Ökoloogia;3

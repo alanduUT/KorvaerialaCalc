@@ -1,0 +1,17 @@
+﻿LOFY.03.012;Arvutikomponendid;6
+LOTI.05.021;Arvutiriistvara praktikum;3
+LOFY.03.013;Manussüsteemid;3
+LOTI.05.028;Mikroprotsessorid;6
+LOTI.05.022;Riistvaraprojekt;6
+LOTI.05.040;Analoog- ja digitaalelektroonika;6
+LOTI.05.041;Digitaalne loogika;6
+LOTI.05.026;Digitaalne signaalitöötlus;3
+LOFY.03.007;Elektriahelad;6
+LOTI.05.042;Elektroonikaseadmete disain ja tootmine;3
+LOFY.03.001;Arvutiriistvara I;3
+LOTI.05.020;Arvutiriistvara II;3
+LOTI.05.021;Arvutiriistvara praktikum;3
+LOFY.03.005;Elektrimõõtmised;3
+LOFY.01.121;Füüsika ja tehnika;6
+LOFY.01.021;Insenerigraafika;3
+LOFY.01.025;Visuaalprogrammeerimine;3

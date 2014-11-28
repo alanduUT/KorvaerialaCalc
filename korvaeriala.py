@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import messagebox
 from copy import deepcopy
 from os import listdir
-from urllib import urlopen
+from urllib.request import urlopen
 ## FRAME
 frame = Tk()
 frame.title("Kõrvaerila Kalkulaator v0.1")
@@ -13,7 +13,7 @@ frame.geometry("300x105")
 def step4():
     #print(result_hash)
     global final_hash
-    med_hash = set()
+    med_hash = set({})
     while True:
         try:
             if 1 in valikained_true:
@@ -21,6 +21,8 @@ def step4():
                     if valikained_true[one] == 1:
                         one_ = (best_list[one])
                         med_hash.add(one_)
+                #print(result_hash)
+                #print(final_hash)
                 final_hash = result_hash - med_hash
                 break
             else:
@@ -34,13 +36,12 @@ def step4():
     frame4.title("Kõrvaerila Kalkulaator v0.1")
     frame4.config(bg = "#F8F8F8")
     frame4.geometry("600x600")
-    print(final_hash)
     _best_list = deepcopy(best_list)
-    for b in _best_list:
+    for b in best_list:
         if not (b in final_hash):
             _best_list.remove(b)
-    subject_code_finder(_best_list) 
-        
+    subject_code_finder(_best_list)
+    
     
 def step2_hash(list_peaeriala,korvaeriala_module):
     values_true_hash = set()
@@ -176,7 +177,54 @@ def step3():
     ##
 ## FUNCTIONS
 def subject_code_finder(best_list):
-    print(best_list)
+    best_list_code = []
+    
+    if len(best_list) == 0:
+        return "Hey"
+    codes = open(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\\" + "code.txt",encoding = "UTF-8")
+    cod = codes.readlines()
+    cod[0] = cod[0].replace("\ufeff","")
+    for c in cod:
+        splited = c.strip().split(";")
+        if splited[0].lower() == str(k_eriala).lower():
+            korvaeriala_code = splited[1]
+
+    path_everything = str(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\everything\\" + str(k_eriala.lower()) +".txt")
+    everything_open = open(path_everything, encoding = "UTF-8")
+    p_ev = everything_open.readlines()
+    p_ev[0] = p_ev[0].replace("\ufeff","")
+    for b_l in best_list:
+        for p__ev in p_ev:
+            p_splited = p__ev.split(";")
+            if b_l == p_splited[1]:
+                best_list_code.append(p_splited[0])
+                break
+    
+    oppekava_web = urlopen(r"https://www.is.ut.ee/pls/ois/!tere.tulemast?leht=OK.BL.PU&id_a_oppekava=" + korvaeriala_code)
+    opp_web = oppekava_web.readlines()
+    
+    to_be_sorted = []
+    sorted_ = []
+    index_blist = 0
+    while index_blist <= len(best_list_code)-1:
+        for ow in range(len(opp_web)):
+            ow1 = opp_web[ow].decode()
+            if str(best_list_code[index_blist]) in ow1:
+                to_be_sorted.append(opp_web[ow+1].decode())
+        index_blist += 1
+    for ts in to_be_sorted:
+        bs = ts.strip(";\n")
+        num = ts.find("vorm.id_register.value=")
+        if bs[num+len("vorm.id_register.value="):] in sorted_:
+            continue
+        else:
+            sorted_.append(bs[num+len("vorm.id_register.value="):])
+    for s_ in sorted_:
+        ainekava_file = urlopen(r"https://www.is.ut.ee/pls/ois/!tere.tulemast?leht=OA.RE.VA&id_register=" + str(s_))
+        ainekava_ = ainekava_file.readlines()
+        print(ainekava_)
+    print(best_list_code)
+
     
     
 def valikained():
