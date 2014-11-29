@@ -11,6 +11,7 @@ frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
 def step4():
+    global _best_list
     #print(result_hash)
     global final_hash
     med_hash = set({})
@@ -40,7 +41,13 @@ def step4():
     for b in best_list:
         if not (b in final_hash):
             _best_list.remove(b)
-    subject_code_finder(_best_list)
+    year_semester(d_ay,m_onth,y_ear)
+    print(date)
+    print(final_hash)
+    print(_best_list)
+    #subject_code_finder(_best_list)
+    print(subject_code_finder(_best_list))
+    
     
     
 def step2_hash(list_peaeriala,korvaeriala_module):
@@ -112,9 +119,6 @@ def step2_hash(list_peaeriala,korvaeriala_module):
             k_super_list.append(k)
     global best_list
     best_list = deepcopy(k_super_list)
-            
-    #print(k_super_list)
-    #print(result_hash)
     return (result_hash, k_super_list)
 ## STEP 3
 def step3():
@@ -177,7 +181,10 @@ def step3():
     ##
 ## FUNCTIONS
 def subject_code_finder(best_list):
+    global best_list_points
+    global best_list_code
     best_list_code = []
+    best_list_points = []
     
     if len(best_list) == 0:
         return "Hey"
@@ -198,6 +205,7 @@ def subject_code_finder(best_list):
             p_splited = p__ev.split(";")
             if b_l == p_splited[1]:
                 best_list_code.append(p_splited[0])
+                best_list_points.append(p_splited[2])
                 break
     
     oppekava_web = urlopen(r"https://www.is.ut.ee/pls/ois/!tere.tulemast?leht=OK.BL.PU&id_a_oppekava=" + korvaeriala_code)
@@ -219,14 +227,85 @@ def subject_code_finder(best_list):
             continue
         else:
             sorted_.append(bs[num+len("vorm.id_register.value="):])
+    toimumised = []
     for s_ in sorted_:
         ainekava_file = urlopen(r"https://www.is.ut.ee/pls/ois/!tere.tulemast?leht=OA.RE.VA&id_register=" + str(s_))
         ainekava_ = ainekava_file.readlines()
-        print(ainekava_)
-    print(best_list_code)
-
+        toimumised += [toimumise_calc(ainekava_)]
+    return schedule(toimumised)
+## SCHEDULE FUNCTIONS NEEDS YEAR CONTROLLER, ON WHATS YEAR STUDENT IS AT THE MOMENT OF USING APP
+def schedule(toimumised):     
+    n = 2
+    years_schedule = []
+    for y in range(3):
+        years_schedule += [[]]
+    semester_start = 0
+    semester_max = 12
+    year = 0
+    while year <= 2:
+        semester_start = 0
+        while semester_start < semester_max:
+            if toimumised.count(0) == len(toimumised):
+                break
+            for to in range(len(toimumised)):
+                
+                if semester_start >= 12:
+                    break
+                if toimumised[to] == 0:
+                    continue
+                if year == 0:
+                    if str(date) in toimumised[to]:
+                        years_schedule[year] += [str(_best_list[to]+ " -" + str(date) +" - " + str(best_list_points[to].strip()) + "EAP")]
+                        toimumised[to] = 0
+                        _best_list[to] = 0
+                        semester_start += int(best_list_points[to])
+                    elif str(str(date[:5]) + " " + "K") in toimumised[to] and (not "K" in date):
+                        years_schedule[year] += [str(str(_best_list[to]) + " - " + str(str(date[:5]) + " " + "K") + " - " + str(best_list_points[to].strip()) + "EAP")]
+                        toimumised[to] = 0
+                        _best_list[to] = 0
+                        semester_start += int(best_list_points[to])
+                    else:
+                        if to == len(toimumised) -1 :
+                            semester_start += 12
+                        else:
+                            continue
+                        #toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year_)+ "/" + str(int(date[3:5]) + year_) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
+                        #years_schedule[year] += [toim]
+                        #toimumised[to] = 0
+                        #_best_list[to] = 0
+                        #semester_start += int(best_list_points[to])
+                else:
+                    toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year)+ "/" + str(int(date[3:5]) + year) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
+                    years_schedule[year] += [toim]
+                    toimumised[to] = 0
+                    _best_list[to] = 0
+                    semester_start += int(best_list_points[to])
+        year += 1        
+    return years_schedule
+                        
+def frequency(intoim):
+    semester_max = []
+    for into in intoim:
+        semester_max.append(into[-1])
+    _S_ = semester_max.count("S")
+    _K_ = semester_max.count("K")
+    if _S_ > _K_:
+        return "S"
+    elif _K_ >= _S_:
+        return "K"
     
-    
+def toimumise_calc(ainekava):
+    toimumised_non_sorted = []
+    toimumised_sorted = []
+    for ava in ainekava:
+        ava1 = ava.decode()
+        if "Stats" in ava1:
+            toimumised_non_sorted.append(ava1)
+    for tns in toimumised_non_sorted:
+        index_stats = tns.find("Stats")
+        toimumised_sorted.append(tns[index_stats-8:index_stats -1])  
+    return toimumised_sorted    
+        
 def valikained():
     global valikained
     global valikained_true
@@ -279,27 +358,27 @@ def year_semester(day,month,year):
         month = 12
         
     if month == 1 or (month == 2 and int(day) < 9):
-        date = []
-        date.append(str(int(year)-1)[2:5]+"/"+str(year)[2:5])
-        date.append("K")
+        #date = []
+        date = (str(int(year)-1)[2:5]+"/"+str(year)[2:5] +" " + "K")
+        #date.append("K")
         return date
     
     elif month == 2 and int(day) >= 9:
-        date = []
-        date.append(str(year)[2:5] +"/"+str(int(year)+1)[2:5])
-        date.append("S")
+        #date = []
+        date = (str(year)[2:5] +"/"+str(int(year)+1)[2:5] + " " + "S")
+        #date.append("S")
         return date
     
     elif month > 2 and month < 9 or (month == 9 and int(day) < 16):
-        date = []
-        date.append(str(year)[2:5] +"/"+str(int(year)+1)[2:5])
-        date.append("S")
+        #date = []
+        date = (str(year)[2:5] +"/"+str(int(year)+1)[2:5] + " " + "S")
+        #date.append("S")
         return date
 
     elif month == 9 and int(day) >= 16:
-        date = []
-        date.append(str(year)[2:5] +"/"+str(int(year)+1)[2:5])
-        date.append("K")
+        #date = []
+        date = (str(year)[2:5] +"/"+str(int(year)+1)[2:5] + " " + "K")
+        #date.append("K")
         return date
     
 def chosen_module():
