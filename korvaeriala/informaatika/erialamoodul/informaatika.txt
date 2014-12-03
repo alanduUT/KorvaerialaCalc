@@ -1,0 +1,4 @@
+﻿MTAT.03.264;Andmebaasid;6
+MTAT.03.134;Andmeturve;6
+LOFY.03.079;Arvuti arhitektuur ja riistvara;6
+MTAT.03.005;Operatsioonisüsteemid;6

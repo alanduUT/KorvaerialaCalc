@@ -1,0 +1,8 @@
+﻿MTAT.03.105;Andmebaasid;3
+MTAT.03.010;Arvutikäsitusõpetus;3
+MTAT.07.028;Infoturve;3
+MTAT.03.132;Multimeedia;3
+MTAT.08.006;Operatsioonisüsteemid;3
+MTAT.03.236;Programmeerimise alused;3
+MTAT.03.256;Programmeerimise alused II;3
+MTAT.03.297;Veebilehtede loomine;3

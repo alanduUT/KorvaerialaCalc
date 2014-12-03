@@ -1,0 +1,34 @@
+﻿MTMM.00.307;Algebra I;6
+MTMM.00.323;Hulgateooria ja diskreetne matemaatika;6
+MTMM.00.179;Matemaatiline analüüs I;6
+MTMS.02.049;Tõenäosusteooria ja statistika I;6
+MTMM.00.161;Elementaarmatemaatika I;6
+LOFY.01.121;Füüsika ja tehnika;6
+MTMM.00.046;Matemaatika ajalugu;3
+MTAT.03.100;Programmeerimine;6
+MTMM.00.324;Sissejuhatus matemaatika erialasse;3
+MTMM.00.325;Algebra II;6
+MTMM.00.327;Analüütiline geomeetria;6
+MTMM.00.214;Diferentsiaalvõrrandid;6
+MTMM.00.180;Matemaatiline analüüs II;6
+MTMM.00.010;Kompleksmuutuja funktsioonide teooria;6
+MTMM.00.182;Matemaatiline analüüs IV;6
+MTMM.00.014;Mõõt ja Lebesgue`i integraal;6
+MTMM.00.013;Sissejuhatus algebra struktuuridesse;6
+MTMM.00.011;Üldine topoloogia I;6
+HTEP.01.230;Diktsioon ja häälehoid;3
+MJJV.10.063;Eraisiku rahandus;3
+MTMM.00.142;Geomeetria süvendusseminar;3
+MTAT.03.149;Infotehnoloogia koolis;3
+MTMM.00.143;Kirjeldav statistika ja tõenäosusteooria põhikoolis;3
+SOPH.00.016;Kognitiivne psühholoogia;3
+MTMM.00.292;Lihtsad matemaatilised mudelid;3
+HTHT.01.034;Sissejuhatus pedagoogilistesse uurimismeetoditesse;3
+MTMM.00.012;Arvuteooria;6
+MTMM.00.095;Funktsionaalanalüüs I;6
+MTMM.00.286;Matemaatiline analüüs III;6
+MTMM.00.005;Numbrilised meetodid;6
+MTMM.00.192;Arvutusmeetodid;6
+MTMM.00.326;Matemaatiline modelleerimine;6
+MTMM.00.251;Mehaanikasüsteemide modelleerimine;6
+MTMS.02.050;Tõenäosusteooria ja statistika II;6

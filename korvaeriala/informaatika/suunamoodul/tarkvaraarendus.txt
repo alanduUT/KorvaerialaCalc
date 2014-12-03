@@ -1,0 +1,4 @@
+﻿MTAT.03.133;Algoritmid ja andmestruktuurid;6
+MTAT.03.130;Objektorienteeritud programmeerimine;6
+MTAT.03.100;Programmeerimine;6
+MTAT.03.094;Tarkvaratehnika;6

@@ -1,0 +1,46 @@
+﻿MTMM.00.307;Algebra I;6
+MTMM.00.323;Hulgateooria ja diskreetne matemaatika;6
+MTMM.00.179;Matemaatiline analüüs I;6
+MTMS.02.049;Tõenäosusteooria ja statistika I;6
+MTMM.00.327;Analüütiline geomeetria;6
+MTMM.00.161;Elementaarmatemaatika I;6
+MTMM.00.180;Matemaatiline analüüs II;6
+MTAT.03.100;Programmeerimine;6
+MTMS.01.069;Andmeanalüüs I;3
+MTMS.02.003;Juhuslikud protsessid;6
+MTMS.01.033;Monte-Carlo meetodid;6
+MTMS.01.055;Sissejuhatus statistika erialasse;3
+MTMS.02.050;Tõenäosusteooria ja statistika II;6
+MTAT.03.133;Algoritmid ja andmestruktuurid;6
+MTAT.03.264;Andmebaasid;6
+MTAT.03.130;Objektorienteeritud programmeerimine;6
+MTAT.03.005;Operatsioonisüsteemid;6
+MTMM.00.214;Diferentsiaalvõrrandid;6
+MTMM.00.095;Funktsionaalanalüüs I;6
+MTMM.00.010;Kompleksmuutuja funktsioonide teooria;6
+MTMM.00.014;Mõõt ja Lebesgue`i integraal;6
+HTEP.01.230;Diktsioon ja häälehoid;3
+MJJV.10.063;Eraisiku rahandus;3
+MTMM.00.142;Geomeetria süvendusseminar;3
+MTAT.03.149;Infotehnoloogia koolis;3
+MTMM.00.143;Kirjeldav statistika ja tõenäosusteooria põhikoolis;3
+SOPH.00.016;Kognitiivne psühholoogia;3
+MTMM.00.292;Lihtsad matemaatilised mudelid;3
+HTHT.01.034;Sissejuhatus pedagoogilistesse uurimismeetoditesse;3
+MTMS.01.007;Andmeanalüüs II;6
+MTMS.01.010;Katseplaneerimise teooria;3
+MTMS.01.020;Kvalitatiivsete andmete analüüs;3
+MTMS.01.008;Maatriksid statistikas;3
+MTMS.01.037;Mitteparameetriline statistika;3
+MTMS.01.003;Valikuuringute teooria I;6
+MTMS.01.070;Biostatistika;5
+MTMS.02.051;Elukindlustusmatemaatika I;3
+MTMS.01.094;Erialane praktika;6
+MTMS.02.040;Informatsiooniteooria;3
+MTMM.00.328;Matemaatilise teksti küljendamine;6
+MTMS.02.007;Populatsioonigeneetika matemaatilised alused;3
+MTMS.01.032;Rahvastikustatistika;3
+MTMS.01.092;Rakendustarkvara: R;2
+MTMS.01.058;Rakendustarkvara: SAS;3
+MTMM.00.195;Sissejuhatus finantsmatemaatikasse;5
+MTMS.01.082;Turu-uuringud;3

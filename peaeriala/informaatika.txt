@@ -1,0 +1,31 @@
+﻿MTMM.00.307;Algebra I;6
+MTAT.05.109;Diskreetse matemaatika elemendid;6
+MTMM.00.179;Matemaatiline analüüs I;6
+MTMS.02.049;Tõenäosusteooria ja statistika I;6
+MTAT.06.041;Eestikeelne kommunikatsioon arvutiteaduses;3
+FLKE.01.249;Erialane inglise keel informaatika üliõpilastele, tase B2 > C1;3
+LOFY.01.121;Füüsika ja tehnika;6
+MTAT.03.233;Infotehnoloogia sotsiaalsed aspektid;3
+MJCV.00.029;IT-ettevõtja baaskursus;6
+MTAT.05.074;Sissejuhatus informaatikasse;3 
+MTAT.03.133;Algoritmid ja andmestruktuurid;6
+MTAT.03.130;Objektorienteeritud programmeerimine;6
+MTAT.03.100;Programmeerimine;6
+MTAT.03.006;Programmeerimiskeeled;6
+MTAT.03.264;Andmebaasid;6
+MTAT.03.134;Andmeturve;6
+LOFY.03.079;Arvuti arhitektuur ja riistvara;6
+MTAT.03.005;Operatsioonisüsteemid;6
+MTAT.05.085;Automaadid, keeled ja translaatorid;6
+MTAT.06.045;Keeletehnoloogia;6
+MTAT.05.111;Sissejuhatus matemaatilisse loogikasse;6
+MTAT.06.008;Tehisintellekt I;6
+MTAT.03.032;Kasutajaliideste kavandamine;3
+MTAT.03.159;Tarkvara testimine;3
+MTAT.03.138;Tarkvaraprojekt;6
+MTAT.03.094;Tarkvaratehnika6;
+MTAT.03.230;Veebirakenduste loomine;6
+MTMM.00.040;Algebra II;6
+MTMM.00.327;Analüütiline geomeetria;6
+MTMM.00.180;Matemaatiline analüüs II;6
+MTMS.02.050;Tõenäosusteooria ja statistika II;6
