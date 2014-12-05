@@ -24,11 +24,10 @@ def lõpp():
     finish = open("C:\\Users\\" + str(nick) + "\\" + "Desktop\\" + str(p_eriala.lower()) + str(k_eriala.lower()) + ".txt", "w")
     finish.write("Praegu Te olete: " + str(date)+"\n")
     for y_s in subject_code_finder(_best_list):
-        if len(y_s) == 0:
-            break
-        else:
+        if len(y_s) != 0:
             for y in y_s:
                 finish.write(str(y) + "\n")
+    print("done")
     finish.close()
 def step4():
     global _best_list
