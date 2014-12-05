@@ -9,3 +9,6 @@ Keemia;4199
 Keskkonnatehnoloogia;4234
 Materjaliteadus;4245
 Ökoloogia;4242
+Informaatika;4280
+Matemaatika;4301
+Matemaatiline statistika;4297

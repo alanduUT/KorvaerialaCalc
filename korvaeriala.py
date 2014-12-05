@@ -10,6 +10,36 @@ frame.title("Kõrvaerila Kalkulaator v0.1")
 frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
+def lõpp():
+    nick = 0
+    while True:
+        try:
+            nick = str(nickname.get())
+            break
+        except:
+            messagebox.showinfo(message="Sisestage USER")
+            break
+            
+    if nick != "" and nick != 0:
+        frame4.destroy()
+    else:
+        messagebox.showinfo(message="Sisestage USER")
+        frame4.mainloop()
+    print(nick)
+    #print(date)
+    #print(final_hash)
+    #print(_best_list)
+    #subject_code_finder(_best_list)
+    #print(yeark)
+    finish = open("C:\\Users\\" + str(nick) + "\\" + "Desktop\\" + str(p_eriala.lower()) + str(k_eriala.lower()) + ".txt", "w")
+    finish.write("Praegu Te olete: " + str(date)+"\n")
+    for y_s in subject_code_finder(_best_list):
+        if len(y_s) == 0:
+            break
+        else:
+            for y in y_s:
+                finish.write(str(y) + "\n")
+    finish.close()
 def step4():
     global _best_list
     #print(result_hash)
@@ -24,6 +54,7 @@ def step4():
                         med_hash.add(one_)
                 #print(result_hash)
                 #print(final_hash)
+                        
                 final_hash = result_hash - med_hash
                 break
             else:
@@ -32,30 +63,53 @@ def step4():
         except:
             final_hash = result_hash
             break
-    frame3.destroy()
-    frame4 = Tk()
-    frame4.title("Kõrvaerila Kalkulaator v0.1")
-    frame4.config(bg = "#F8F8F8")
-    frame4.geometry("600x600")
     _best_list = deepcopy(best_list)
     for b in best_list:
         if not (b in final_hash):
             _best_list.remove(b)
+    global date
     year_semester(d_ay,m_onth,y_ear)
-    print(date)
-    print(final_hash)
-    print(_best_list)
-    #subject_code_finder(_best_list)
-    print(subject_code_finder(_best_list))
+    global frame4
+    global nickname
+    frame3.destroy()
+    frame4 = Tk()
+    frame4.title("Kõrvaerila Kalkulaator v0.1")
+    frame4.config(bg = "#F8F8F8")
+    frame4.geometry("150x120")
+    nickname_label = Label(frame4, text = "Sisestage USER")
+    nickname_label.config(bg = "#F8F8F8")
+    nickname_label.place(x = 25, y = 5)
+    nickname = Entry(frame4)
+    nickname.place(x= 5, y = 30, width = 140, height = 20)
+    finish_button = Button(frame4, text = "Lõpp", command = lõpp, bg = "#00CC33", font = b_i_font)
+    finish_button.place(x = 40, y = 70)
+
     
-    
-    
+            
 def step2_hash(list_peaeriala,korvaeriala_module):
+    peaeriala_eap = 0
     values_true_hash = set()
     for v_t in range(len(list_peaeriala)):
         if list_peaeriala[v_t] == 1:
             var_2 = (p_eriala_choose[v_t])
             values_true_hash.add(var_2)
+    path_peaeriala_point = str(r"C:\Users\alandocs\Documents\korvaerialaproject\KorvaerialaCalc\peaeriala\\" + str(p_eriala.lower()) +".txt")
+    peaeriala_open = open(path_peaeriala_point, encoding = "UTF-8")
+    p_op = peaeriala_open.readlines()
+    p_op[0] = p_op[0].replace("\ufeff","")
+    for l_pe in range(len(list_peaeriala)):
+        if list_peaeriala[l_pe] == 1:
+            peaeriala_eap += int(p_op[l_pe].split(";")[2].strip())
+    global yeark
+    if peaeriala_eap <= 60:
+        yeark = 1
+    elif peaeriala_eap > 60 and peaeriala_eap <= 120:
+        yeark = 2
+    else:
+        yeark = 3
+        
+            
+        
     global k_super_list
     k_super_list = list()
     k_korvaeriala_hash_list = list()
@@ -235,27 +289,29 @@ def subject_code_finder(best_list):
     return schedule(toimumised)
 ## SCHEDULE FUNCTIONS NEEDS YEAR CONTROLLER, ON WHATS YEAR STUDENT IS AT THE MOMENT OF USING APP
 def schedule(toimumised):     
-    n = 2
     years_schedule = []
     for y in range(3):
         years_schedule += [[]]
     semester_start = 0
-    semester_max = 12
+    if "K" in date:
+        semester_max = 15
+    else:
+        semester_max = 20
     year = 0
-    while year <= 2:
+    while year <= 3-yeark:
         semester_start = 0
         while semester_start < semester_max:
             if toimumised.count(0) == len(toimumised):
                 break
             for to in range(len(toimumised)):
                 
-                if semester_start >= 12:
+                if semester_start >= semester_max:
                     break
                 if toimumised[to] == 0:
                     continue
                 if year == 0:
                     if str(date) in toimumised[to]:
-                        years_schedule[year] += [str(_best_list[to]+ " -" + str(date) +" - " + str(best_list_points[to].strip()) + "EAP")]
+                        years_schedule[year] += [str(_best_list[to])+ " - " + str(date) +" - " + str(best_list_points[to].strip()) + "EAP"]
                         toimumised[to] = 0
                         _best_list[to] = 0
                         semester_start += int(best_list_points[to])
@@ -318,7 +374,7 @@ def valikained():
         v_val += 1
     valikained_true = deepcopy(valikained)
     return valikained_true                                       
-                                       
+#_KEY_ = ["date","1/1","4/5","2/6","11/2"]        
 def year_semester(day,month,year):
     global date
     if month.lower() == "jaanuar": 
@@ -528,7 +584,7 @@ p_label = Label(frame, text = "Peaeriala", font = p_k_font, bg = "#F8F8F8")
 p_label.place(x = 5, y = 10)
 
 peaeriala = ttk.Combobox(frame)
-peaeriala["values"] = ["Arvutitehnika","Bioloogia","Haridusteadus","Keemia","Keskkonnatehnoloogia","Materjaliteadus","Ökoloogia","Geograafia","Füüsika","Geoloogia"]
+peaeriala["values"] = ["Arvutitehnika","Bioloogia","Füüsika","Geenitehnoloogia","Geograafia","Geoloogia","Haridusteadus","Keemia","Keskkonnatehnoloogia","Materjaliteadus","Ökoloogia","Informaatika","Matemaatika","Matemaatiline statistika"]
 peaeriala.pack()
 peaeriala.place(x = 5, y =40 )
 
@@ -538,7 +594,7 @@ k_label = Label(frame, text = "Kõrvaeriala", font = p_k_font, bg = "#F8F8F8")
 k_label.place(x = 150, y = 10)
 
 korvaeriala = ttk.Combobox(frame)
-korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Haridusteadus","Keskkonnatehnoloogia","Keemia","Materjaliteadus","Ökoloogia","Geograafia","Geenitehnoloogia"]
+korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Füüsika","Geenitehnoloogia","Geograafia","Geoloogia","Keemia","Keskkonnatehnoloogia","Materjaliteadus","Ökoloogia","Informaatika","Matemaatika","Matemaatiline statistika"]
 korvaeriala.pack()
 korvaeriala.place(x = 150, y = 40)
 

@@ -1,0 +1,11 @@
+﻿MTMS.01.069;Andmeanalüüs I;3
+MTMS.02.003;Juhuslikud protsessid;6
+MTMS.01.033;Monte-Carlo meetodid;6
+MTMS.01.055;Sissejuhatus statistika erialasse;3
+MTMS.02.050;Tõenäosusteooria ja statistika II;6
+MTMS.01.007;Andmeanalüüs II;6
+MTMS.01.010;Katseplaneerimise teooria;3
+MTMS.01.020;Kvalitatiivsete andmete analüüs;3
+MTMS.01.008;Maatriksid statistikas;3
+MTMS.01.037;Mitteparameetriline statistika;3
+MTMS.01.003;Valikuuringute teooria I;6

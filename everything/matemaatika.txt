@@ -1,0 +1,8 @@
+﻿MTMM.00.307;Algebra I;6
+MTMM.00.327;Analüütiline geomeetria;6
+MTMM.00.323;Hulgateooria ja diskreetne matemaatika;6
+MTMM.00.179;Matemaatiline analüüs I;6
+MTMM.00.214;Diferentsiaalvõrrandid;6
+MTMM.00.180;Matemaatiline analüüs II;6
+MTMM.00.286;Matemaatiline analüüs III;6
+MTMM.00.005;Numbrilised meetodid;6
