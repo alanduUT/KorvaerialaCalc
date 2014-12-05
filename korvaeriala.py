@@ -11,21 +11,11 @@ frame.config(bg = "#F8F8F8")
 frame.geometry("300x105")
 ## FUNCTIONS
 def lõpp():
-    nick = 0
-    while True:
-        try:
-            nick = str(nickname.get())
-            break
-        except:
-            messagebox.showinfo(message="Sisestage USER")
-            break
-            
-    if nick != "" and nick != 0:
+    if nickname.get() != "":
+        nick = nickname.get()
         frame4.destroy()
     else:
-        messagebox.showinfo(message="Sisestage USER")
-        frame4.mainloop()
-    print(nick)
+        return messagebox.showinfo(message="Sisestage USER")
     #print(date)
     #print(final_hash)
     #print(_best_list)

@@ -1,5 +1,5 @@
 ﻿LOFY.01.002;Fuusikaline maailmapilt;6
-LOFY.01.035;Fuusikaliste mootmiste praktikum keemikutele;3 EAP
+LOFY.01.035;Fuusikaliste mootmiste praktikum keemikutele;3
 MTMM.00.003;Korgem matemaatika I;6
 MTMM.00.004;Korgem matemaatika II;6
 LOFY.01.004;Mootmised ja mootemaaramatused;3
