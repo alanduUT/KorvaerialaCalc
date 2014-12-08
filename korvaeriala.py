@@ -297,36 +297,36 @@ def schedule(toimumised):
                     break
                 if toimumised[to] == 0:
                     continue
-                if year == 0:
-                    if str(date) in toimumised[to]:
-                        years_schedule[year] += [str(_best_list[to])+ " - " + str(date) +" - " + str(best_list_points[to].strip()) + "EAP"]
-                        toimumised[to] = 0
-                        _best_list[to] = 0
-                        semester_start += int(best_list_points[to])
-                    elif str(str(date[:5]) + " " + "K") in toimumised[to] and (not "K" in date):
-                        years_schedule[year] += [str(str(_best_list[to]) + " - " + str(str(date[:5]) + " " + "K") + " - " + str(best_list_points[to].strip()) + "EAP")]
-                        toimumised[to] = 0
-                        _best_list[to] = 0
-                        semester_start += int(best_list_points[to])
-                    else:
-                        if to == len(toimumised) -1 :
-                            semester_start += 12
-                        else:
-                            continue
-                        #toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year_)+ "/" + str(int(date[3:5]) + year_) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
-                        #years_schedule[year] += [toim]
-                        #toimumised[to] = 0
-                        #_best_list[to] = 0
-                        #semester_start += int(best_list_points[to])
                 else:
-                    if to == len(toimumised) -1 :
-                        semester_start += 12
+                    if year == 0:
+                        if str(date) in toimumised[to]:
+                            years_schedule[year] += [str(_best_list[to])+ " - " + str(date) +" - " + str(best_list_points[to].strip()) + "EAP"]
+                            toimumised[to] = 0
+                            _best_list[to] = 0
+                            semester_start += int(best_list_points[to])
+                        elif str(str(date[:5]) + " " + "K") in toimumised[to] and (not "K" in date):
+                            years_schedule[year] += [str(str(_best_list[to]) + " - " + str(str(date[:5]) + " " + "K") + " - " + str(best_list_points[to].strip()) + "EAP")]
+                            toimumised[to] = 0
+                            _best_list[to] = 0
+                            semester_start += int(best_list_points[to])
+                        else:
+                            if to == len(toimumised) -1 :
+                                semester_start += 20
+                            else:
+                                continue
+                            #toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year_)+ "/" + str(int(date[3:5]) + year_) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
+                            #years_schedule[year] += [toim]
+                            #toimumised[to] = 0
+                            #_best_list[to] = 0
+                            #semester_start += int(best_list_points[to])
                     else:
                         toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year)+ "/" + str(int(date[3:5]) + year) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
                         years_schedule[year] += [toim]
                         toimumised[to] = 0
                         _best_list[to] = 0
                         semester_start += int(best_list_points[to])
+                        if to == len(toimumised) - 1 :
+                            semester_start += 20
         year += 1        
     return years_schedule
                         
