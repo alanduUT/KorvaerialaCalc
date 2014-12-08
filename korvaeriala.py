@@ -585,7 +585,7 @@ k_label = Label(frame, text = "Kõrvaeriala", font = p_k_font, bg = "#F8F8F8")
 k_label.place(x = 150, y = 10)
 
 korvaeriala = ttk.Combobox(frame)
-korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Füüsika","Geenitehnoloogia","Geograafia","Geoloogia","Keemia","Keskkonnatehnoloogia","Materjaliteadus","Ökoloogia","Informaatika","Matemaatika","Matemaatiline statistika"]
+korvaeriala["values"] = ["Arvutitehnika","Bioloogia","Füüsika","Geenitehnoloogia","Geograafia","Geoloogia","Keemia","Materjaliteadus","Ökoloogia","Informaatika","Matemaatika","Matemaatiline statistika"]
 korvaeriala.pack()
 korvaeriala.place(x = 150, y = 40)
 
