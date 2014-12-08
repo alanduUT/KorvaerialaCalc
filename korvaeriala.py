@@ -277,7 +277,7 @@ def subject_code_finder(best_list):
         toimumised += [toimumise_calc(ainekava_)]
     return schedule(toimumised)
 ## SCHEDULE FUNCTIONS NEEDS YEAR CONTROLLER, ON WHATS YEAR STUDENT IS AT THE MOMENT OF USING APP
-def schedule(toimumised):     
+def schedule(toimumised):
     years_schedule = []
     for y in range(3):
         years_schedule += [[]]
@@ -293,7 +293,6 @@ def schedule(toimumised):
             if toimumised.count(0) == len(toimumised):
                 break
             for to in range(len(toimumised)):
-                
                 if semester_start >= semester_max:
                     break
                 if toimumised[to] == 0:
@@ -320,12 +319,16 @@ def schedule(toimumised):
                         #_best_list[to] = 0
                         #semester_start += int(best_list_points[to])
                 else:
-                    print(to)
-                    toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year)+ "/" + str(int(date[3:5]) + year) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
-                    years_schedule[year] += [toim]
-                    toimumised[to] = 0
-                    _best_list[to] = 0
-                    semester_start += int(best_list_points[to])
+                    if to == len(toimumised) -1 :
+                        semester_start += 12
+                    else:
+                    #print(_best_list)
+                    #print(toimumised)
+                        toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year)+ "/" + str(int(date[3:5]) + year) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
+                        years_schedule[year] += [toim]
+                        toimumised[to] = 0
+                        _best_list[to] = 0
+                        semester_start += int(best_list_points[to])
         year += 1        
     return years_schedule
                         
