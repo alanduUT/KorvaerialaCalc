@@ -1,6 +1,6 @@
-﻿LOFY.01.002;Fuusikaline maailmapilt;6
+﻿LOFY.01.002;Füüsikaline maailmapilt;6
 LOKT.07.010;Keemia alused;6
-MTMM.00.145;Korgem matemaatika;6
+MTMM.00.145;Kõrgem matemaatika;6
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3
 LOFY.01.002;Fuusikaline maailmapilt;6
@@ -27,8 +27,8 @@ LOOM.02.148;Maateaduste alused II;3
 LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
 LOFY.05.026;Meteoroloogia praktikum;3
 LOMR.03.016;Mikrobioloogia I;3
-LOOM.01.105;Okoloogia;3
-LOOM.02.143;Hudroloogia;3
+LOOM.01.105;Ökoloogia;3
+LOOM.02.143;Hüdroloogia;3
 LOKT.04.023;Jaatmemajandus ja jaatmekaitlus;3
 LOOM.02.279;Keskkonna mikrobioloogia;3
 LOOM.03.075;Keskkonnageoloogia;3

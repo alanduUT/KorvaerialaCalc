@@ -293,6 +293,7 @@ def schedule(toimumised):
             if toimumised.count(0) == len(toimumised):
                 break
             for to in range(len(toimumised)):
+                print(to)
                 if semester_start >= semester_max:
                     break
                 if toimumised[to] == 0:
