@@ -1,0 +1,35 @@
+﻿LOFY.02.039;Aine elektrilised omadused;6
+LOKT.01.007;Anorgaaniline keemia;6
+LOFY.02.003;Füüsikaliste mõõtmiste praktikum;3
+LOKT.01.003;Keemia aluste praktikum I;3
+LOFY.02.005;Materjalifuusika praktikum I. Mehaanika ja soojus;6
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOKT.06.010;Analüütiline keemia I;6
+LOKT.01.007;Anorgaaniline keemia;6
+LOKT.02.037;Füüsikaline keemia 1. osa;6
+LOKT.01.003;Keemia aluste praktikum I;3
+LOKT.09.015;Orgaanilise keemia praktikum;3
+LOFY.02.039;Aine elektrilised omadused;6
+LOKT.06.012;Analuutilise keemia praktikum I;3
+LOKT.02.041;Fuusikalise keemia praktikum I;3
+LOFY.02.005;Materjalifuusika praktikum I. Mehaanika ja soojus;6
+LOFY.02.006;Materjalifuusika praktikum II. Elekter ja magnetism;3
+LOFY.02.007;Materjalifuusika praktikum III. Optika;3
+LOFY.02.002;Aine ehitus I;6
+LOKT.06.010;Analüütiline keemia I;6
+LOKT.02.037;Füüsikaline keemia 1. osa;6
+LOFY.02.010;Füüsikalised materjalitehnoloogiad;3
+LOKT.09.016;Materjalide keemia I;3
+LOKT.06.012;Analüütilise keemia praktikum I;3
+LOKT.02.038;Füüsikaline keemia 2. osa;3
+LOKT.02.041;Füüsikalise keemia praktikum I;3
+LOFY.02.010;Füüsikalised materjalitehnoloogiad;3
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3
+LOKT.06.012;Analüütilise keemia praktikum I;3
+LOKT.02.038;Füüsikaline keemia 2. osa;3
+LOKT.02.041;Füüsikalise keemia praktikum I;3
+LOFY.02.010;Füüsikalised materjalitehnoloogiad;3
+LOKT.09.040;Orgaaniline keemia I;3
+LOKT.09.041;Orgaanilise keemia seminar I;3

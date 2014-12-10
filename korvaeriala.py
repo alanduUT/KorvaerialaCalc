@@ -312,8 +312,6 @@ def schedule(toimumised):
                         else:
                             if to == len(toimumised) -1 :
                                 semester_start += 20
-                            else:
-                                continue
                             #toim = str(str(_best_list[to]) + " - " + str(int(date[:2]) + year_)+ "/" + str(int(date[3:5]) + year_) + " " + str(frequency(toimumised[to])) + " - " + str(best_list_points[to].strip()) + "EAP")
                             #years_schedule[year] += [toim]
                             #toimumised[to] = 0
