@@ -1,46 +1,46 @@
-﻿FLEE.02.042;Eesti oigekeelsus ja valjendusopetus;3
+﻿FLEE.02.042;Eesti õigekeelsus ja väljendusopetus;3
 HTPK.01.226;Konfliktidega toimetulek koolis;3
 MTMM.00.242;Matemaatika alused;3
 HTPK.01.063;Pedagoogika uurimismeetodid;3
-SHPH.00.038;Psuuhika pohifunktsioonid;6
+SHPH.00.038;Psüühika põhifunktsioonid;6
 HTHT.00.018;Tutvumis- ja vaatluspraktika;3
-SHHI.01.006;Ulddidaktika ja kasvatustoo alused;3
-ARFS.01.053;Fusioloogia praktikum;2
-LOFY.01.091;Fuusikaline maailmapilt;6
-LOMR.09.032;Inimese anatoomia ja fusioloogia (koos praktikumiga);4
+SHHI.01.006;Ülddidaktika ja kasvatustöö alused;3
+ARFS.01.053;Füsioloogia praktikum;2
+LOFY.01.091;Füüsikaline maailmapilt;6
+LOMR.09.032;Inimese anatoomia ja füsioloogia (koos praktikumiga);4
 LOOM.03.115;Maateaduste alused I;3
 LOOM.02.148;Maateaduste alused II;3
-LOKT.01.058;Uldine keemia;3
-LOKT.01.046;Uldkeemia seminar;3
+LOKT.01.058;Üldine keemia;3
+LOKT.01.046;Üldkeemia seminar;3
 LOOM.01.017;Floristika valipraktika;3
 LOOM.04.078;Selgroogsete zooloogia;4
 LOOM.04.077;Selgrootute zooloogia;4
-LOOM.01.121;Sissejuhatus eukaruootide mitmekesisusse - protistid ja seened;2
+LOOM.01.121;Sissejuhatus eukarüootide mitmekesisusse - protistid ja seened;2
 LOOM.04.012;Zooloogia valipraktikum;3
 LOOM.01.123;Taimeanatoomia ja -morfoloogia;4
 LOOM.01.124;Taimede sustemaatika ja fulogenees;4
-LOOM.01.106;Biosustemaatika ja elurikkuse informaatika;1
+LOOM.01.106;Biosüstemaatika ja elurikkuse informaatika;1
 LOOM.04.002;Etoloogia;3
 LOMR.02.004;Evolutsioonimehhanismid;2
 LOMR.03.010;Geneetika I;3
 LOMR.03.016;Mikrobioloogia I;3
-LOOM.01.034;Mukoloogia;3
+LOOM.01.034;Mükoloogia;3
 LOMR.06.004;Rakubioloogia I;3
 LOMR.07.001;Taimefusioloogia;3
-LOOM.01.105;Okoloogia;3
+LOOM.01.105;Ökoloogia;3
 LOFY.01.090;Elekter ja magnetism;6
-LOFY.01.092;Fuusika seminarikursus;6 
-LOFY.01.094;Fuusikaliste mootmiste praktikum;3
-LOFY.01.004;Mootmised ja mootemaaramatused;3
+LOFY.01.092;Füüsika seminarikursus;6 
+LOFY.01.094;Füüsikaliste mõõtmiste praktikum;3
+LOFY.01.004;Mõõtmised ja mõõtemaaramatused;3
 LOFY.01.089;Optika;6
 LOFY.04.023;Astronoomia;3
 LOFY.01.110;Eksperimentaalne koolifuusika;3
-LOFY.01.101;Fuusika meie umber;3
-LOFY.01.072;Informatsiooni-kommunikatsioonitehnoloogia fuusikahariduses;6
-LOFY.01.065;Kooliulesannete lahendamise metoodika;2
-LOFY.01.070;Loodusteadusliku motlemisviisi kujundamine koolifuusikas;3
-LOFY.01.095;Mikromaailma fuusika;3
-LOFY.01.069;Valitood koolifuusikas;1
+LOFY.01.101;Füüsika meie umber;3
+LOFY.01.072;Informatsiooni-kommunikatsioonitehnoloogia füüsikahariduses;6
+LOFY.01.065;Kooliülesannete lahendamise metoodika;2
+LOFY.01.070;Loodusteadusliku mõtlemisviisi kujundamine koolifuusikas;3
+LOFY.01.095;Mikromaailma füüsika;3
+LOFY.01.069;Välitood koolifüüsikas;1
 LOOM.01.010;Biogeograafia;3
 LOOM.02.173;Eesti loodusgeograafia;3
 LOOM.02.243;Eestimaa tundmine;3
@@ -49,7 +49,7 @@ LOOM.02.254;Kaardiopetus;3
 LOOM.02.140;Loodus- ja keskkonnakaitse;3
 LOOM.03.010;Maateaduste alused I valipraktika;3
 LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
-LOOM.02.065;emograafia I;3
+LOOM.02.065;Demograafia I;3
 LOOM.02.129;Eesti maastikud;3
 LOOM.02.244;Geograafilise motte kujunemine ja geograafia ajalugu;3
 LOOM.02.044;Geoinformaatika I;3
@@ -59,13 +59,13 @@ LOOM.02.059;Transpordigeograafia;3
 LOOM.01.105;Ökoloogia;3
 LOKT.01.007;Anorgaaniline keemia;6
 LOKT.01.002;Anorgaanilise keemia seminar;3
-LOKT.01.008;Keemia pohimoisted;3
+LOKT.01.008;Keemia põhimoisted;3
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3
-LOKT.01.049;Uldise ja anorgaanilise keemia praktikum;6
+LOKT.01.049;Üldise ja anorgaanilise keemia praktikum;6
 LOMR.08.005;Biokeemia I;3
-LOKT.02.036;Fuusikaline keemia;3
-LOKT.01.006;Keemiaulesannete lahendamine;3
+LOKT.02.036;Füüsikaline keemia;3
+LOKT.01.006;Keemiaülesannete lahendamine;3
 LOKT.04.010;Keskkonnakeemia koolis;3
 LOKT.01.040;Koolikeemia;3
 LOKT.01.050;Koolikeemia praktikum;3

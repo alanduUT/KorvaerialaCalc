@@ -1,20 +1,20 @@
 ﻿MTMM.00.271;Algebra ja geomeetria;3
 MTMM.00.188;Kõrgem matemaatika;6
-LOFY.04.042;Matemaatiline fuusika I;6
+LOFY.04.042;Matemaatiline füüsika I;6
 LOFY.03.030;Praktiline kvantmehaanika;3
 MTAT.03.236;Programmeerimise alused;3
 LOFY.03.056;Tõenaosusteooria ja statistika;3
 LOKT.01.007;Anorgaaniline keemia;6
 LOFY.01.002;Füüsikaline maailmapilt;6
-LOFY.02.003;Fõõsikaliste mootmiste praktikum;3
+LOFY.02.003;Fõõsikaliste mõõtmiste praktikum;3
 LOKT.07.010;Keemia alused;6
 LOKT.01.003;Keemia aluste praktikum I;3
 LOFY.02.039;Aine elektrilised omadused;6
 LOFY.02.054;Aine mehhaanilised ja soojuslikud omadused;6
-LOKT.06.010;Analuutiline keemia I;6
+LOKT.06.010;Analüütiline keemia I;6
 LOKT.02.037;Füüsikaline keemia 1. osa;6
 LOFY.02.004;Aine ehituse praktikum I;3
-LOKT.06.012;Analuutilise keemia praktikum I;3
+LOKT.06.012;Analüütilise keemia praktikum I;3
 LOKT.02.041;Füüsikalise keemia praktikum I;3
 LOKT.02.039;Füüsikalise keemia seminar 1. osa;3
 LOFY.02.055;Materjalifuusika praktikum I. Mehaanika ja soojus;3
@@ -33,4 +33,4 @@ LOKT.09.016;Materjalide keemia I;3
 LOKT.01.047;Pinna mikroskoopia ja analuus I;3
 LOFY.02.020;Röntgenstruktuuranaluus I;3
 LOFY.02.008;Sissejuhatus materjaliteadusse;3
-LOKT.06.017;Spektroskoopilised analuusimeetodid;6
+LOKT.06.017;Spektroskoopilised analüüsimeetodid;6

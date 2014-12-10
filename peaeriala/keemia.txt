@@ -10,9 +10,9 @@ LOKT.01.003;Keemia aluste praktikum I;3
 LOKT.09.031;Keemia aluste praktikum II;3
 LOKT.07.011;Keemia aluste seminar;3
 LOKT.06.010;Analüütiline keemia I;6
-LOKT.02.037;Fuusikaline keemia 1. osa;6
-LOKT.02.038;Fuusikaline keemia 2. osa;3
-LOKT.02.039;Fuusikalise keemia seminar 1. osa;3
+LOKT.02.037;Füüsikaline keemia 1. osa;6
+LOKT.02.038;Füüsikaline keemia 2. osa;3
+LOKT.02.039;Füüsikalise keemia seminar 1. osa;3
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3
 LOKT.06.028;Analüütilise keemia praktikum I;6
@@ -25,7 +25,7 @@ LOKT.10.012;Bioorgaaniline keemia;6
 LOKT.04.004;Keskkonnakeemia I;3
 LOKT.04.003;Kolloid- ja pindnahtuste keemia I;3
 LOKT.09.016;Materjalide keemia I;3
-LOKT.09.019;Polumeeride keemia;3
+LOKT.09.019;Polümeeride keemia;3
 LOKT.08.001;Teoreetiline keemia;6
 LOKT.06.013;Analüütiline keemia II;3
 LOKT.06.015;Analüütilise keemia praktikum II;6

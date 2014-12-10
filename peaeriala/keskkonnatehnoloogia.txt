@@ -8,12 +8,12 @@ LOKT.07.010;Keemia alused;6
 MTMM.00.145;Korgem matemaatika;6
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3
-LOMR.00.100;Eesti keele suulise ja kirjaliku valjenduse opetus(LOMR.00.100);3
-LOKT.00.018;Eesti keele suulise ja kirjaliku valjenduse opetus(LOKT.00.018);3
-LOOM.00.022;Eesti keele suulise ja kirjaliku valjenduse opetus(LOOM.00.022);3
-LOFY.00.003;Eesti keele valjendusopetus;3
-FLKE.01.204;Inglise keel keskkonnatehnoloogia uliopilastele, tase B2;3
-FLKE.01.205;Inglise keel keskkonnatehnoloogia uliopilastele, tase C1;3
+LOMR.00.100;Eesti keele suulise ja kirjaliku väljenduse opetus(LOMR.00.100);3
+LOKT.00.018;Eesti keele suulise ja kirjaliku väljenduse opetus(LOKT.00.018);3
+LOOM.00.022;Eesti keele suulise ja kirjaliku väljenduse opetus(LOOM.00.022);3
+LOFY.00.003;Eesti keele väljendusopetus;3
+FLKE.01.204;Inglise keel keskkonnatehnoloogia üliopilastele, tase B2;3
+FLKE.01.205;Inglise keel keskkonnatehnoloogia üliopilastele, tase C1;3
 FLKE.02.215;Saksa keel kesktasemele, tase A2.2 > B1.1;3
 LOMR.08.002;Biokeemia praktikum;5
 LOMR.03.010;Geneetika I;3
@@ -21,7 +21,7 @@ LOMR.03.011;Geneetika II;3
 LOMR.03.023;Geneetika praktikum;4
 LOMR.03.020;Mikrobioloogia II;3
 LOMR.03.021;Mikrobioloogia ja viroloogia praktikum;6
-LOOM.03.086;Geodunaamika ja tahke Maa fuusika alused;3
+LOOM.03.086;Geodünaamika ja tahke Maa fuusika alused;3
 LOOM.03.063;Maateaduste alused I;6
 LOOM.02.148;Maateaduste alused II;3
 LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
@@ -35,18 +35,18 @@ LOOM.03.075;Keskkonnageoloogia;3
 LOFY.05.031;Keskkonnakaugseire I;3
 LOKT.04.063;Protsessid mikroheterogeensetes susteemides;3
 LOKT.04.032;Vee tehnoloogia alused I;3
-LOOM.02.161;Okotehnoloogia;3
+LOOM.02.161;Ökotehnoloogia;3
 LOOM.02.044;Geoinformaatika I;3
-LOKT.04.006;Keskkonna analuus;3
-LOKT.04.034;Keskkonna analuusi praktikum;3
+LOKT.04.006;Keskkonna analüüs;3
+LOKT.04.034;Keskkonna analüüsi praktikum;3
 LOOM.01.121;Sissejuhatus eukaruootide mitmekesisusse - protistid ja seened;2
 LOOM.04.079;Sissejuhatus zooloogiasse;2
 LOOM.01.122;Sissejuhatus taimeteadusesse;2
-LOFY.03.056;Toenaosusteooria ja statistika;3
-LOOM.01.073;Okoloogia rakendusi;3
-LOKT.04.016;Okotoksikoloogia;3
+LOFY.03.056;Toenäosusteooria ja statistika;3
+LOOM.01.073;Ökoloogia rakendusi;3
+LOKT.04.016;Ökotoksikoloogia;3
 LOOM.02.190;Ehituse ja veemajanduse inseneralused;3
-LOOM.03.083;Hudrogeoloogia;3
+LOOM.03.083;Hüdrogeoloogia;3
 LOOM.03.118;Maavarad ja kaevandustehnoloogiad;6
 LOFY.05.054;Modelleerimine keskkonnatehnoloogias;3
 LOOM.02.170;Mullateadus I;3

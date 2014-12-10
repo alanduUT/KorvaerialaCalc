@@ -1,26 +1,26 @@
 ﻿LOMR.07.011;Bioloogiline fuusika;3
-LOMR.07.012;Fuusika alused;3
-MTMM.00.145;Korgem matemaatika;6
+LOMR.07.012;Füüsika alused;3
+MTMM.00.145;Kõrgem matemaatika;6
 LOOM.03.115;Maateaduste alused I;3
 LOKT.09.040;Orgaaniline keemia I;3
 LOKT.09.041;Orgaanilise keemia seminar I;3
-LOKT.01.058;Uldine keemia;3
+LOKT.01.058;Üldine keemia;3
 LOOM.01.010;Biogeograafia;3
 LOMR.08.005;Biokeemia I;3
-LOOM.01.106;Biosustemaatika ja elurikkuse informaatika;1
+LOOM.01.106;Biosüstemaatika ja elurikkuse informaatika;1
 LOMR.02.004;Evolutsioonimehhanismid;2
 LOMR.03.010;Geneetika I;3
 LOOM.02.140;Loodus- ja keskkonnakaitse;3
 LOOM.02.148;Maateaduste alused II;3
 LOMR.06.004;Rakubioloogia I;3
 LOOM.01.105;Ökoloogia;3
-LOOM.01.034;Mukoloogia;3
+LOOM.01.034;Mükoloogia;3
 LOOM.04.078;Selgroogsete zooloogia;4
 LOOM.04.077;Selgrootute zooloogia;4
-LOOM.01.121;Sissejuhatus eukaruootide mitmekesisusse - protistid ja seened;2
+LOOM.01.121;Sissejuhatus eukarüootide mitmekesisusse - protistid ja seened;2
 LOOM.01.123;Taimeanatoomia ja -morfoloogia;4
 LOOM.01.124;Taimede sustemaatika ja fulogenees;4
-LOOM.04.034;Uldine hudrobioloogia;3
+LOOM.04.034;Üldine hudrobioloogia;3
 LOMR.02.003;Evolutsiooniline bioloogia;3
 LOOM.02.130;Geomorfoloogia;3
 LOOM.02.279;Keskkonna mikrobioloogia;3
@@ -30,19 +30,19 @@ LOOM.02.170;Mullateadus I;3
 LOMR.07.001;Taimefusioloogia;3
 LOMR.07.006;Taimefusioloogia praktikum;3
 LOOM.04.002;Etoloogia;3
-LOOM.02.143;Hudroloogia;3
+LOOM.02.143;Hüdroloogia;3
 OIEO.02.018;Keskkonnaoigus mittejuristidele;3
 LOOM.04.003;Looduskaitsebioloogia;3
 LOOM.02.240;Meteoroloogia ja klimatoloogia alused;3
 LOOM.03.051;Paleontoloogia ja stratigraafia aluseâ;3
 MJRI.09.003;Sissejuhatus majandusteooriasse;3
-LOOM.01.073;Okoloogia rakendusi;3
+LOOM.01.073;Ökoloogia rakendusi;3
 LOOM.01.017;Floristika valipraktika;3
 LOOM.01.038;Fungistika valipraktika;3
 LOOM.02.044;Geoinformaatika I;3
 OIAO.05.067;Haldusoiguse alused;2
 LOOM.00.020;Kaitstavate loodusobjektide praktikum;4
-LOOM.01.107;Mukoloogia ja lihhenoloogia praktikum;3
+LOOM.01.107;Mükoloogia ja lihhenoloogia praktikum;3
 LOOM.00.027;Sissejuhatus erialasse okoloogidele ja bioloogidele;1
 LOOM.04.012;Zooloogia valipraktikum;3
 LOOM.02.050;Tarkvara ArcGIS;2
