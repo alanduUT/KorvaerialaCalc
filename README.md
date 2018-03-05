@@ -1,4 +1,4 @@
 KorvaerialaCalc
 ===============
-This is a Kõrvaeriala Kalkulaator for a Programming Project. 
-Made by Alan Durnev and Nikita Kirienko (C)
+This is a monolithic Kõrvaeriala Kalkulaator for a Programming Project. 
+Made by Alan Durnev and Nikita Kirienko in 2014 (C)
